@@ -1,0 +1,332 @@
+nohup: ignoring input
+/data/anaconda3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/data/anaconda3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/data/anaconda3/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Min label: 1, Max label: 1993
+Expected label range: [0, 430]
+Training dataset size: 12812
+Validation dataset size: 3204
+Test dataset size: 14939
+Epoch 1/100
+Training Accuracy: 0.0070
+Validation Accuracy: 0.0075
+Epoch 2/100
+Training Accuracy: 0.0097
+Validation Accuracy: 0.0087
+Epoch 3/100
+Training Accuracy: 0.0102
+Validation Accuracy: 0.0059
+Epoch 4/100
+Training Accuracy: 0.0113
+Validation Accuracy: 0.0153
+Epoch 5/100
+Training Accuracy: 0.0132
+Validation Accuracy: 0.0153
+Epoch 6/100
+Training Accuracy: 0.0156
+Validation Accuracy: 0.0194
+Epoch 7/100
+Training Accuracy: 0.0168
+Validation Accuracy: 0.0147
+Epoch 8/100
+Training Accuracy: 0.0206
+Validation Accuracy: 0.0222
+Epoch 9/100
+Training Accuracy: 0.0227
+Validation Accuracy: 0.0200
+Epoch 10/100
+Training Accuracy: 0.0264
+Validation Accuracy: 0.0268
+Epoch 11/100
+Training Accuracy: 0.0309
+Validation Accuracy: 0.0268
+Epoch 12/100
+Training Accuracy: 0.0368
+Validation Accuracy: 0.0334
+Epoch 13/100
+Training Accuracy: 0.0432
+Validation Accuracy: 0.0393
+Epoch 14/100
+Training Accuracy: 0.0564
+Validation Accuracy: 0.0462
+Epoch 15/100
+Training Accuracy: 0.0692
+Validation Accuracy: 0.0627
+Epoch 16/100
+Training Accuracy: 0.0861
+Validation Accuracy: 0.0584
+Epoch 17/100
+Training Accuracy: 0.1025
+Validation Accuracy: 0.0799
+Epoch 18/100
+Training Accuracy: 0.1273
+Validation Accuracy: 0.0930
+Epoch 19/100
+Training Accuracy: 0.1488
+Validation Accuracy: 0.1027
+Epoch 20/100
+Training Accuracy: 0.1885
+Validation Accuracy: 0.1426
+Epoch 21/100
+Training Accuracy: 0.2176
+Validation Accuracy: 0.1589
+Epoch 22/100
+Training Accuracy: 0.2496
+Validation Accuracy: 0.1701
+Epoch 23/100
+Training Accuracy: 0.2933
+Validation Accuracy: 0.1798
+Epoch 24/100
+Training Accuracy: 0.3270
+Validation Accuracy: 0.2144
+Epoch 25/100
+Training Accuracy: 0.3688
+Validation Accuracy: 0.2400
+Epoch 26/100
+Training Accuracy: 0.4031
+Validation Accuracy: 0.2531
+Epoch 27/100
+Training Accuracy: 0.4458
+Validation Accuracy: 0.2737
+Epoch 28/100
+Training Accuracy: 0.4784
+Validation Accuracy: 0.2953
+Epoch 29/100
+Training Accuracy: 0.5165
+Validation Accuracy: 0.3090
+Epoch 30/100
+Training Accuracy: 0.5464
+Validation Accuracy: 0.3502
+Epoch 31/100
+Training Accuracy: 0.5724
+Validation Accuracy: 0.3639
+Epoch 32/100
+Training Accuracy: 0.6106
+Validation Accuracy: 0.3851
+Epoch 33/100
+Training Accuracy: 0.6377
+Validation Accuracy: 0.3755
+Epoch 34/100
+Training Accuracy: 0.6712
+Validation Accuracy: 0.3886
+Epoch 35/100
+Training Accuracy: 0.6909
+Validation Accuracy: 0.4404
+Epoch 36/100
+Training Accuracy: 0.7143
+Validation Accuracy: 0.3667
+Epoch 37/100
+Training Accuracy: 0.7299
+Validation Accuracy: 0.4482
+Epoch 38/100
+Training Accuracy: 0.7540
+Validation Accuracy: 0.4688
+Epoch 39/100
+Training Accuracy: 0.7698
+Validation Accuracy: 0.4594
+Epoch 40/100
+Training Accuracy: 0.7838
+Validation Accuracy: 0.4757
+Epoch 41/100
+Training Accuracy: 0.7958
+Validation Accuracy: 0.4688
+Epoch 42/100
+Training Accuracy: 0.8224
+Validation Accuracy: 0.4444
+Epoch 43/100
+Training Accuracy: 0.8177
+Validation Accuracy: 0.4791
+Epoch 44/100
+Training Accuracy: 0.8369
+Validation Accuracy: 0.4994
+Epoch 45/100
+Training Accuracy: 0.8419
+Validation Accuracy: 0.4978
+Epoch 46/100
+Training Accuracy: 0.8503
+Validation Accuracy: 0.5069
+Epoch 47/100
+Training Accuracy: 0.8651
+Validation Accuracy: 0.4722
+Epoch 48/100
+Training Accuracy: 0.8727
+Validation Accuracy: 0.4688
+Epoch 49/100
+Training Accuracy: 0.8690
+Validation Accuracy: 0.5097
+Epoch 50/100
+Training Accuracy: 0.8800
+Validation Accuracy: 0.5156
+Epoch 51/100
+Training Accuracy: 0.8872
+Validation Accuracy: 0.5340
+Epoch 52/100
+Training Accuracy: 0.8888
+Validation Accuracy: 0.5318
+Epoch 53/100
+Training Accuracy: 0.8975
+Validation Accuracy: 0.5331
+Epoch 54/100
+Training Accuracy: 0.9033
+Validation Accuracy: 0.5278
+Epoch 55/100
+Training Accuracy: 0.9103
+Validation Accuracy: 0.5468
+Epoch 56/100
+Training Accuracy: 0.9062
+Validation Accuracy: 0.5618
+Epoch 57/100
+Training Accuracy: 0.9148
+Validation Accuracy: 0.5109
+Epoch 58/100
+Training Accuracy: 0.9189
+Validation Accuracy: 0.5381
+Epoch 59/100
+Training Accuracy: 0.9148
+Validation Accuracy: 0.5159
+Epoch 60/100
+Training Accuracy: 0.9157
+Validation Accuracy: 0.5456
+Epoch 61/100
+Training Accuracy: 0.9230
+Validation Accuracy: 0.5521
+Epoch 62/100
+Training Accuracy: 0.9313
+Validation Accuracy: 0.5615
+Epoch 63/100
+Training Accuracy: 0.9686
+Validation Accuracy: 0.6323
+Epoch 64/100
+Training Accuracy: 0.9810
+Validation Accuracy: 0.6426
+Epoch 65/100
+Training Accuracy: 0.9839
+Validation Accuracy: 0.6380
+Epoch 66/100
+Training Accuracy: 0.9854
+Validation Accuracy: 0.6511
+Epoch 67/100
+Training Accuracy: 0.9852
+Validation Accuracy: 0.6548
+Epoch 68/100
+Training Accuracy: 0.9858
+Validation Accuracy: 0.6492
+Epoch 69/100
+Training Accuracy: 0.9884
+Validation Accuracy: 0.6592
+Epoch 70/100
+Training Accuracy: 0.9875
+Validation Accuracy: 0.6551
+Epoch 71/100
+Training Accuracy: 0.9885
+Validation Accuracy: 0.6433
+Epoch 72/100
+Training Accuracy: 0.9876
+Validation Accuracy: 0.6589
+Epoch 73/100
+Training Accuracy: 0.9878
+Validation Accuracy: 0.6542
+Epoch 74/100
+Training Accuracy: 0.9881
+Validation Accuracy: 0.6498
+Epoch 75/100
+Training Accuracy: 0.9907
+Validation Accuracy: 0.6564
+Epoch 76/100
+Training Accuracy: 0.9904
+Validation Accuracy: 0.6679
+Epoch 77/100
+Training Accuracy: 0.9927
+Validation Accuracy: 0.6751
+Epoch 78/100
+Training Accuracy: 0.9908
+Validation Accuracy: 0.6573
+Epoch 79/100
+Training Accuracy: 0.9916
+Validation Accuracy: 0.6617
+Epoch 80/100
+Training Accuracy: 0.9916
+Validation Accuracy: 0.6573
+Epoch 81/100
+Training Accuracy: 0.9943
+Validation Accuracy: 0.6639
+Epoch 82/100
+Training Accuracy: 0.9917
+Validation Accuracy: 0.6623
+Epoch 83/100
+Training Accuracy: 0.9918
+Validation Accuracy: 0.6620
+Epoch 84/100
+Training Accuracy: 0.9937
+Validation Accuracy: 0.6601
+Epoch 85/100
+Training Accuracy: 0.9930
+Validation Accuracy: 0.6720
+Epoch 86/100
+Training Accuracy: 0.9927
+Validation Accuracy: 0.6629
+Epoch 87/100
+Training Accuracy: 0.9924
+/data/anaconda3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Validation Accuracy: 0.6729
+Early stopping triggered.
+Training complete.
+Min label: 1, Max label: 1993
+Expected label range: [0, 430]
+Training dataset size: 12812
+Validation dataset size: 3204
+Test dataset size: 14939
+Epoch 1/100
+Training Accuracy: 0.0069
+Validation Accuracy: 0.0084
+Epoch 2/100
+Training Accuracy: 0.0081
+Validation Accuracy: 0.0053
+Epoch 3/100
+Training Accuracy: 0.0094
+Validation Accuracy: 0.0075
+Epoch 4/100
+Training Accuracy: 0.0089
+Validation Accuracy: 0.0091
+Epoch 5/100
+Training Accuracy: 0.0074
+Validation Accuracy: 0.0084
+Epoch 6/100
+Training Accuracy: 0.0089
+Validation Accuracy: 0.0097
+Epoch 7/100
+Training Accuracy: 0.0086
+Validation Accuracy: 0.0091
+Epoch 8/100
+Training Accuracy: 0.0098
+Validation Accuracy: 0.0087
+Epoch 9/100
+Training Accuracy: 0.0091
+Validation Accuracy: 0.0094
+Epoch 10/100
+Training Accuracy: 0.0100
+Validation Accuracy: 0.0091
+Epoch 11/100
+Training Accuracy: 0.0087
+Validation Accuracy: 0.0091
+Epoch 12/100
+Training Accuracy: 0.0101
+Validation Accuracy: 0.0091
+Epoch 13/100
+Training Accuracy: 0.0091
+Validation Accuracy: 0.0091
+Epoch 14/100
+Training Accuracy: 0.0098
+Validation Accuracy: 0.0081
+Epoch 15/100
+Training Accuracy: 0.0105
+Validation Accuracy: 0.0087
+Epoch 16/100
+Training Accuracy: 0.0118
+Validation Accuracy: 0.0084
+Early stopping triggered.
+Training complete.
