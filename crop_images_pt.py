@@ -36,7 +36,7 @@ def parse_file(file_path, root_dir, root_dir_view):
                 if os.path.exists(label_file_path):
                     with open(label_file_path, 'r') as label_file:
                         first_line = label_file.readline().strip()
-                        if first_line in {'1', '2'}:
+                        if first_line in {'1', '2', '4', '5'}:
                             # Here the label is taken as the integer from the first folder in the path.
                             label_val = int(line.split('/')[0])
                             labels.append(label_val)
@@ -89,12 +89,14 @@ class CarDataset(Dataset):
 # Cell 4: Data transforms and splitting dataset
 # Define transforms (feel free to adjust augmentation parameters)
 train_transforms = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.RandomAffine(degrees=15, shear=0.2, scale=(0.8, 1.2)),
+    transforms.RandomResizedCrop(224, scale=(0.7, 1.0)),  # slightly wider range if needed
     transforms.RandomHorizontalFlip(),
+    transforms.RandomRotation(degrees=5),  # reduce rotation
+    transforms.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1, hue=0.05),  # lower intensity
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                         std=[0.229, 0.224, 0.225])
+                         std=[0.229, 0.224, 0.225]),
+    transforms.RandomErasing(p=0.1, scale=(0.02, 0.08), ratio=(0.3, 3.3))  # lower probability and scale
 ])
 
 val_transforms = transforms.Compose([
@@ -310,15 +312,12 @@ def save_cropped_images_to_directory(generator, model, output_dir, subset, class
     cropped_images_dir = os.path.join(output_dir, f'{subset}_cropped')
     os.makedirs(original_images_dir, exist_ok=True)
     os.makedirs(cropped_images_dir, exist_ok=True)
-    total_samples = 0
-    data_iter = iter(generator)
-    total_samples_in_dataset = len(generator.dataset)
     
-    while total_samples < total_samples_in_dataset:
-        try:
-            images, labels = next(data_iter)
-        except StopIteration:
-            break
+    total_samples_in_dataset = len(generator.dataset)
+    pbar = tqdm(total=total_samples_in_dataset, desc=f"Saving {subset} images")
+    total_samples = 0
+
+    for images, labels in generator:
         images = preprocess_input(images)
         # Compute masks for the current batch
         masks = []
@@ -330,11 +329,14 @@ def save_cropped_images_to_directory(generator, model, output_dir, subset, class
             mask = (heatmap > 0.7).float()
             masks.append(mask)
         if len(masks) == 0:
+            pbar.update(images.size(0))
+            total_samples += images.size(0)
             continue
+
         masks_tensor = torch.stack(masks, dim=0)
         cropped_images = crop_local_region_batch(images, masks_tensor)
         
-        # Unnormalize images for saving
+        # Unnormalize images and save them to disk
         for i, (original_img, cropped_img, label) in enumerate(zip(images, cropped_images, labels)):
             class_name = classes[int(label)]
             orig_class_dir = os.path.join(original_images_dir, class_name)
@@ -361,6 +363,10 @@ def save_cropped_images_to_directory(generator, model, output_dir, subset, class
             cv2.imwrite(crop_img_path, cropped_img_np.squeeze())
         
         total_samples += images.size(0)
+        pbar.update(images.size(0))
+        
+    pbar.close()
+
 
 # --- Plotting Samples with Masks and Crops ---
 def plot_samples_with_masks_and_crops(generator, model, classes, num_samples=5, last_conv_layer_name='layer4'):
