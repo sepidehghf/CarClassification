@@ -12,13 +12,7 @@ import multiprocessing
 # Define the dataset class
 class CarDataset(Dataset):
     def __init__(self, file_path, root_dir, transform=None):
-        """
-        Args:
-            file_path (str): Path to the text file containing image paths.
-            root_dir (str): Root directory containing the images.
-            transform (callable, optional): Optional transform to be applied
-                on a sample.
-        """
+
         self.image_paths = []
         self.labels = []
         self.root_dir = root_dir

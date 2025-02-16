@@ -7,3 +7,4 @@ make_predictor_resnet50_fusion_model.keras
 make_predictor_resnet50_local_model.keras
 fusion_model.pth
 make_predictor_resnet50_attention_model.keras
+
