@@ -1,357 +1,1812 @@
 Starting training for dataset part 1...
-/data/anaconda3/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
-  warnings.warn(
 Dataset 1 | Epoch 1/100
-Training Accuracy: 0.0026
-Validation Accuracy: 0.0136
-New best model saved with validation accuracy: 0.0136
+Training Accuracy: 0.0068
+Validation Accuracy: 0.0102, Loss: 6.1537
+New best model saved with validation accuracy: 0.0102
 Dataset 1 | Epoch 2/100
-Training Accuracy: 0.0264
-Validation Accuracy: 0.0102
-No improvement for 1 epoch(s).
+Training Accuracy: 0.0179
+Validation Accuracy: 0.0272, Loss: 6.0405
+New best model saved with validation accuracy: 0.0272
 Dataset 1 | Epoch 3/100
-Training Accuracy: 0.0544
-Validation Accuracy: 0.0238
-New best model saved with validation accuracy: 0.0238
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0782
+Validation Accuracy: 0.0782, Loss: 5.6764
+New best model saved with validation accuracy: 0.0782
 Dataset 1 | Epoch 4/100
-Training Accuracy: 0.1241
-Validation Accuracy: 0.0646
-New best model saved with validation accuracy: 0.0646
+Training Accuracy: 0.1046
+Validation Accuracy: 0.1190, Loss: 5.2168
+New best model saved with validation accuracy: 0.1190
 Dataset 1 | Epoch 5/100
-Training Accuracy: 0.2534
-Validation Accuracy: 0.1156
-New best model saved with validation accuracy: 0.1156
+Training Accuracy: 0.3912
+Validation Accuracy: 0.1905, Loss: 4.9257
+New best model saved with validation accuracy: 0.1905
 Dataset 1 | Epoch 6/100
-Training Accuracy: 0.4269
-Validation Accuracy: 0.1463
-New best model saved with validation accuracy: 0.1463
+Training Accuracy: 0.3784
+Validation Accuracy: 0.2619, Loss: 4.5741
+New best model saved with validation accuracy: 0.2619
 Dataset 1 | Epoch 7/100
-Training Accuracy: 0.6020
-Validation Accuracy: 0.1633
-New best model saved with validation accuracy: 0.1633
+Training Accuracy: 0.5748
+Validation Accuracy: 0.2891, Loss: 4.2966
+New best model saved with validation accuracy: 0.2891
 Dataset 1 | Epoch 8/100
-Training Accuracy: 0.7551
-Validation Accuracy: 0.1701
-New best model saved with validation accuracy: 0.1701
+Training Accuracy: 0.4796
+Validation Accuracy: 0.3163, Loss: 4.2513
+New best model saved with validation accuracy: 0.3163
 Dataset 1 | Epoch 9/100
-Training Accuracy: 0.8554
-Validation Accuracy: 0.2551
-New best model saved with validation accuracy: 0.2551
+Training Accuracy: 0.5646
+Validation Accuracy: 0.3163, Loss: 4.1302
+No improvement for 1 epoch(s).
 Dataset 1 | Epoch 10/100
-Training Accuracy: 0.8827
-Validation Accuracy: 0.3027
-New best model saved with validation accuracy: 0.3027
-Dataset 1 | Epoch 11/100
-Training Accuracy: 0.9031
-Validation Accuracy: 0.2755
-No improvement for 1 epoch(s).
-Dataset 1 | Epoch 12/100
-Training Accuracy: 0.9532
-Validation Accuracy: 0.3333
-New best model saved with validation accuracy: 0.3333
-Dataset 1 | Epoch 13/100
-Training Accuracy: 0.9609
-Validation Accuracy: 0.2619
-No improvement for 1 epoch(s).
-Dataset 1 | Epoch 14/100
-Training Accuracy: 0.9626
-Validation Accuracy: 0.3265
+Training Accuracy: 0.4932
+Validation Accuracy: 0.3095, Loss: 4.1371
 No improvement for 2 epoch(s).
-Dataset 1 | Epoch 15/100
-Training Accuracy: 0.9762
-Validation Accuracy: 0.2585
+Dataset 1 | Epoch 11/100
+Training Accuracy: 0.4881
+Validation Accuracy: 0.3639, Loss: 3.9249
+New best model saved with validation accuracy: 0.3639
+Dataset 1 | Epoch 12/100
+Training Accuracy: 0.5944
+Validation Accuracy: 0.3367, Loss: 4.0041
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 13/100
+Training Accuracy: 0.6241
+Validation Accuracy: 0.3401, Loss: 3.9746
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 14/100
+Training Accuracy: 0.4269
+Validation Accuracy: 0.3639, Loss: 3.8680
 No improvement for 3 epoch(s).
+Dataset 1 | Epoch 15/100
+Training Accuracy: 0.4838
+Validation Accuracy: 0.3707, Loss: 3.9717
+New best model saved with validation accuracy: 0.3707
 Dataset 1 | Epoch 16/100
-Training Accuracy: 0.9728
-Validation Accuracy: 0.3129
-No improvement for 4 epoch(s).
+Training Accuracy: 0.3512
+Validation Accuracy: 0.3299, Loss: 4.0663
+No improvement for 1 epoch(s).
 Dataset 1 | Epoch 17/100
-Training Accuracy: 0.9702
-Validation Accuracy: 0.3027
+Training Accuracy: 0.6071
+Validation Accuracy: 0.3605, Loss: 4.0178
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 18/100
+Training Accuracy: 0.5340
+Validation Accuracy: 0.3844, Loss: 3.8814
+New best model saved with validation accuracy: 0.3844
+Dataset 1 | Epoch 19/100
+Training Accuracy: 0.6276
+Validation Accuracy: 0.3707, Loss: 3.8151
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 20/100
+Training Accuracy: 0.5400
+Validation Accuracy: 0.3776, Loss: 3.8412
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 21/100
+Training Accuracy: 0.4524
+Validation Accuracy: 0.3776, Loss: 3.7975
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 22/100
+Training Accuracy: 0.4405
+Validation Accuracy: 0.3605, Loss: 3.8597
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 23/100
+Training Accuracy: 0.5094
+Validation Accuracy: 0.3503, Loss: 3.7641
 No improvement for 5 epoch(s).
+Dataset 1 | Epoch 24/100
+Training Accuracy: 0.3844
+Validation Accuracy: 0.3741, Loss: 3.8039
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 25/100
+Training Accuracy: 0.3759
+Validation Accuracy: 0.3912, Loss: 3.8595
+New best model saved with validation accuracy: 0.3912
+Dataset 1 | Epoch 26/100
+Training Accuracy: 0.5051
+Validation Accuracy: 0.3980, Loss: 3.8230
+New best model saved with validation accuracy: 0.3980
+Dataset 1 | Epoch 27/100
+Training Accuracy: 0.5774
+Validation Accuracy: 0.3912, Loss: 3.7725
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 28/100
+Training Accuracy: 0.6429
+Validation Accuracy: 0.3946, Loss: 3.7526
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 29/100
+Training Accuracy: 0.4957
+Validation Accuracy: 0.4184, Loss: 3.7695
+New best model saved with validation accuracy: 0.4184
+Dataset 1 | Epoch 30/100
+Training Accuracy: 0.6947
+Validation Accuracy: 0.3912, Loss: 3.7796
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 31/100
+Training Accuracy: 0.2330
+Validation Accuracy: 0.3878, Loss: 3.7960
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 32/100
+Training Accuracy: 0.5009
+Validation Accuracy: 0.3912, Loss: 3.8379
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 33/100
+Training Accuracy: 0.4566
+Validation Accuracy: 0.3980, Loss: 3.7164
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 34/100
+Training Accuracy: 0.4889
+Validation Accuracy: 0.4082, Loss: 3.7067
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 35/100
+Training Accuracy: 0.4524
+Validation Accuracy: 0.4252, Loss: 3.7560
+New best model saved with validation accuracy: 0.4252
+Dataset 1 | Epoch 36/100
+Training Accuracy: 0.4379
+Validation Accuracy: 0.4218, Loss: 3.6948
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 37/100
+Training Accuracy: 0.5111
+Validation Accuracy: 0.3980, Loss: 3.7896
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 38/100
+Training Accuracy: 0.6760
+Validation Accuracy: 0.4218, Loss: 3.6795
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 39/100
+Training Accuracy: 0.4847
+Validation Accuracy: 0.4150, Loss: 3.6471
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 40/100
+Training Accuracy: 0.5442
+Validation Accuracy: 0.4048, Loss: 3.7300
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 41/100
+Training Accuracy: 0.5646
+Validation Accuracy: 0.3912, Loss: 3.7944
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 42/100
+Training Accuracy: 0.4031
+Validation Accuracy: 0.4082, Loss: 3.7336
+No improvement for 7 epoch(s).
+Dataset 1 | Epoch 43/100
+Training Accuracy: 0.6216
+Validation Accuracy: 0.4048, Loss: 3.7221
+No improvement for 8 epoch(s).
+Dataset 1 | Epoch 44/100
+Training Accuracy: 0.5952
+Validation Accuracy: 0.4116, Loss: 3.6976
+No improvement for 9 epoch(s).
+Dataset 1 | Epoch 45/100
+Training Accuracy: 0.6148
+Validation Accuracy: 0.4082, Loss: 3.7598
+No improvement for 10 epoch(s).
+Dataset 1 | Epoch 46/100
+Training Accuracy: 0.3418
+Validation Accuracy: 0.4286, Loss: 3.7046
+New best model saved with validation accuracy: 0.4286
+Dataset 1 | Epoch 47/100
+Training Accuracy: 0.5408
+Validation Accuracy: 0.4592, Loss: 3.6908
+New best model saved with validation accuracy: 0.4592
+Dataset 1 | Epoch 48/100
+Training Accuracy: 0.5638
+Validation Accuracy: 0.4388, Loss: 3.6713
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 49/100
+Training Accuracy: 0.5476
+Validation Accuracy: 0.4490, Loss: 3.6567
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 50/100
+Training Accuracy: 0.4932
+Validation Accuracy: 0.4286, Loss: 3.6629
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 51/100
+Training Accuracy: 0.5068
+Validation Accuracy: 0.4422, Loss: 3.6938
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 52/100
+Training Accuracy: 0.4405
+Validation Accuracy: 0.4048, Loss: 3.7067
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 53/100
+Training Accuracy: 0.3801
+Validation Accuracy: 0.4524, Loss: 3.6279
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 54/100
+Training Accuracy: 0.3767
+Validation Accuracy: 0.4388, Loss: 3.6358
+No improvement for 7 epoch(s).
+Dataset 1 | Epoch 55/100
+Training Accuracy: 0.6046
+Validation Accuracy: 0.4422, Loss: 3.6232
+No improvement for 8 epoch(s).
+Dataset 1 | Epoch 56/100
+Training Accuracy: 0.5298
+Validation Accuracy: 0.4116, Loss: 3.6573
+No improvement for 9 epoch(s).
+Dataset 1 | Epoch 57/100
+Training Accuracy: 0.4932
+Validation Accuracy: 0.4252, Loss: 3.6903
+No improvement for 10 epoch(s).
+Dataset 1 | Epoch 58/100
+Training Accuracy: 0.5272
+Validation Accuracy: 0.4558, Loss: 3.6363
+No improvement for 11 epoch(s).
+Dataset 1 | Epoch 59/100
+Training Accuracy: 0.5051
+Validation Accuracy: 0.4286, Loss: 3.6141
+No improvement for 12 epoch(s).
+Dataset 1 | Epoch 60/100
+Training Accuracy: 0.5910
+Validation Accuracy: 0.4354, Loss: 3.6379
+No improvement for 13 epoch(s).
+Dataset 1 | Epoch 61/100
+Training Accuracy: 0.5655
+Validation Accuracy: 0.4660, Loss: 3.6418
+New best model saved with validation accuracy: 0.4660
+Dataset 1 | Epoch 62/100
+Training Accuracy: 0.4753
+Validation Accuracy: 0.4286, Loss: 3.6788
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 63/100
+Training Accuracy: 0.5434
+Validation Accuracy: 0.4558, Loss: 3.5627
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 64/100
+Training Accuracy: 0.5714
+Validation Accuracy: 0.4422, Loss: 3.6114
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 65/100
+Training Accuracy: 0.6684
+Validation Accuracy: 0.4490, Loss: 3.6398
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 66/100
+Training Accuracy: 0.5187
+Validation Accuracy: 0.4490, Loss: 3.6809
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 67/100
+Training Accuracy: 0.4821
+Validation Accuracy: 0.4456, Loss: 3.6594
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 68/100
+Training Accuracy: 0.5850
+Validation Accuracy: 0.4490, Loss: 3.5980
+No improvement for 7 epoch(s).
+Dataset 1 | Epoch 69/100
+Training Accuracy: 0.5272
+Validation Accuracy: 0.4388, Loss: 3.6973
+No improvement for 8 epoch(s).
+Dataset 1 | Epoch 70/100
+Training Accuracy: 0.4847
+Validation Accuracy: 0.4422, Loss: 3.6147
+No improvement for 9 epoch(s).
+Dataset 1 | Epoch 71/100
+Training Accuracy: 0.5714
+Validation Accuracy: 0.4422, Loss: 3.5955
+No improvement for 10 epoch(s).
+Dataset 1 | Epoch 72/100
+Training Accuracy: 0.5502
+Validation Accuracy: 0.4252, Loss: 3.6086
+No improvement for 11 epoch(s).
+Dataset 1 | Epoch 73/100
+Training Accuracy: 0.3673
+Validation Accuracy: 0.4354, Loss: 3.6577
+No improvement for 12 epoch(s).
+Dataset 1 | Epoch 74/100
+Training Accuracy: 0.4617
+Validation Accuracy: 0.4456, Loss: 3.6558
+No improvement for 13 epoch(s).
+Dataset 1 | Epoch 75/100
+Training Accuracy: 0.4252
+Validation Accuracy: 0.4592, Loss: 3.5984
+No improvement for 14 epoch(s).
+Dataset 1 | Epoch 76/100
+Training Accuracy: 0.5986
+Validation Accuracy: 0.4592, Loss: 3.6441
+No improvement for 15 epoch(s).
 Early stopping triggered.
 Training complete for Dataset part 1.
 
 Starting training for dataset part 2...
 Dataset 2 | Epoch 1/100
-Training Accuracy: 0.0097
-Validation Accuracy: 0.0000
-No improvement for 1 epoch(s).
+Training Accuracy: 0.0035
+Validation Accuracy: 0.0070, Loss: 6.0909
+New best model saved with validation accuracy: 0.0070
 Dataset 2 | Epoch 2/100
-Training Accuracy: 0.0282
-Validation Accuracy: 0.0211
-New best model saved with validation accuracy: 0.0211
+Training Accuracy: 0.0141
+Validation Accuracy: 0.0493, Loss: 5.9906
+New best model saved with validation accuracy: 0.0493
 Dataset 2 | Epoch 3/100
-Training Accuracy: 0.0652
-Validation Accuracy: 0.0141
-No improvement for 1 epoch(s).
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0846
+Validation Accuracy: 0.1162, Loss: 5.4135
+New best model saved with validation accuracy: 0.1162
 Dataset 2 | Epoch 4/100
-Training Accuracy: 0.1700
-Validation Accuracy: 0.0810
-New best model saved with validation accuracy: 0.0810
+Training Accuracy: 0.2326
+Validation Accuracy: 0.2218, Loss: 4.7310
+New best model saved with validation accuracy: 0.2218
 Dataset 2 | Epoch 5/100
-Training Accuracy: 0.3295
-Validation Accuracy: 0.1338
-New best model saved with validation accuracy: 0.1338
+Training Accuracy: 0.3709
+Validation Accuracy: 0.3275, Loss: 4.1336
+New best model saved with validation accuracy: 0.3275
 Dataset 2 | Epoch 6/100
-Training Accuracy: 0.5269
-Validation Accuracy: 0.1690
-New best model saved with validation accuracy: 0.1690
-Dataset 2 | Epoch 7/100
-Training Accuracy: 0.7128
-Validation Accuracy: 0.2465
-New best model saved with validation accuracy: 0.2465
-Dataset 2 | Epoch 8/100
-Training Accuracy: 0.8167
-Validation Accuracy: 0.2324
-No improvement for 1 epoch(s).
-Dataset 2 | Epoch 9/100
-Training Accuracy: 0.8943
-Validation Accuracy: 0.3521
-New best model saved with validation accuracy: 0.3521
-Dataset 2 | Epoch 10/100
-Training Accuracy: 0.9260
-Validation Accuracy: 0.3451
-No improvement for 1 epoch(s).
-Dataset 2 | Epoch 11/100
-Training Accuracy: 0.9269
-Validation Accuracy: 0.3451
-No improvement for 2 epoch(s).
-Dataset 2 | Epoch 12/100
-Training Accuracy: 0.9507
-Validation Accuracy: 0.3556
-New best model saved with validation accuracy: 0.3556
-Dataset 2 | Epoch 13/100
-Training Accuracy: 0.9524
-Validation Accuracy: 0.3275
-No improvement for 1 epoch(s).
-Dataset 2 | Epoch 14/100
-Training Accuracy: 0.9498
-Validation Accuracy: 0.3662
+Training Accuracy: 0.3991
+Validation Accuracy: 0.3662, Loss: 3.8814
 New best model saved with validation accuracy: 0.3662
-Dataset 2 | Epoch 15/100
-Training Accuracy: 0.9753
-Validation Accuracy: 0.3838
-New best model saved with validation accuracy: 0.3838
-Dataset 2 | Epoch 16/100
-Training Accuracy: 0.9727
-Validation Accuracy: 0.3873
-New best model saved with validation accuracy: 0.3873
-Dataset 2 | Epoch 17/100
-Training Accuracy: 0.9894
-Validation Accuracy: 0.3662
-No improvement for 1 epoch(s).
-Dataset 2 | Epoch 18/100
-Training Accuracy: 0.9903
-Validation Accuracy: 0.4261
+Dataset 2 | Epoch 7/100
+Training Accuracy: 0.5339
+Validation Accuracy: 0.4261, Loss: 3.6020
 New best model saved with validation accuracy: 0.4261
-Dataset 2 | Epoch 19/100
-Training Accuracy: 0.9912
-Validation Accuracy: 0.3838
+Dataset 2 | Epoch 8/100
+Training Accuracy: 0.4670
+Validation Accuracy: 0.4542, Loss: 3.4312
+New best model saved with validation accuracy: 0.4542
+Dataset 2 | Epoch 9/100
+Training Accuracy: 0.4890
+Validation Accuracy: 0.4331, Loss: 3.5701
 No improvement for 1 epoch(s).
-Dataset 2 | Epoch 20/100
-Training Accuracy: 0.9868
-Validation Accuracy: 0.4225
+Dataset 2 | Epoch 10/100
+Training Accuracy: 0.4247
+Validation Accuracy: 0.4613, Loss: 3.3832
+New best model saved with validation accuracy: 0.4613
+Dataset 2 | Epoch 11/100
+Training Accuracy: 0.5251
+Validation Accuracy: 0.4754, Loss: 3.3757
+New best model saved with validation accuracy: 0.4754
+Dataset 2 | Epoch 12/100
+Training Accuracy: 0.4211
+Validation Accuracy: 0.4437, Loss: 3.4275
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 13/100
+Training Accuracy: 0.5075
+Validation Accuracy: 0.4225, Loss: 3.4220
 No improvement for 2 epoch(s).
-Dataset 2 | Epoch 21/100
-Training Accuracy: 0.9859
-Validation Accuracy: 0.3627
+Dataset 2 | Epoch 14/100
+Training Accuracy: 0.5771
+Validation Accuracy: 0.4542, Loss: 3.3044
 No improvement for 3 epoch(s).
+Dataset 2 | Epoch 15/100
+Training Accuracy: 0.5110
+Validation Accuracy: 0.4824, Loss: 3.2868
+New best model saved with validation accuracy: 0.4824
+Dataset 2 | Epoch 16/100
+Training Accuracy: 0.5683
+Validation Accuracy: 0.4789, Loss: 3.3259
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 17/100
+Training Accuracy: 0.5639
+Validation Accuracy: 0.5141, Loss: 3.2903
+New best model saved with validation accuracy: 0.5141
+Dataset 2 | Epoch 18/100
+Training Accuracy: 0.5744
+Validation Accuracy: 0.4859, Loss: 3.2140
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 19/100
+Training Accuracy: 0.5419
+Validation Accuracy: 0.5282, Loss: 3.1908
+New best model saved with validation accuracy: 0.5282
+Dataset 2 | Epoch 20/100
+Training Accuracy: 0.5736
+Validation Accuracy: 0.5176, Loss: 3.2153
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 21/100
+Training Accuracy: 0.2784
+Validation Accuracy: 0.4824, Loss: 3.2658
+No improvement for 2 epoch(s).
 Dataset 2 | Epoch 22/100
-Training Accuracy: 0.9868
-Validation Accuracy: 0.3979
-No improvement for 4 epoch(s).
+Training Accuracy: 0.5004
+Validation Accuracy: 0.4824, Loss: 3.2614
+No improvement for 3 epoch(s).
 Dataset 2 | Epoch 23/100
-Training Accuracy: 0.9824
-Validation Accuracy: 0.3979
+Training Accuracy: 0.5868
+Validation Accuracy: 0.5035, Loss: 3.1336
+No improvement for 4 epoch(s).
+Dataset 2 | Epoch 24/100
+Training Accuracy: 0.5665
+Validation Accuracy: 0.4930, Loss: 3.1356
 No improvement for 5 epoch(s).
+Dataset 2 | Epoch 25/100
+Training Accuracy: 0.3789
+Validation Accuracy: 0.5176, Loss: 3.1554
+No improvement for 6 epoch(s).
+Dataset 2 | Epoch 26/100
+Training Accuracy: 0.5656
+Validation Accuracy: 0.5141, Loss: 3.1828
+No improvement for 7 epoch(s).
+Dataset 2 | Epoch 27/100
+Training Accuracy: 0.5524
+Validation Accuracy: 0.5176, Loss: 3.2619
+No improvement for 8 epoch(s).
+Dataset 2 | Epoch 28/100
+Training Accuracy: 0.5137
+Validation Accuracy: 0.5141, Loss: 3.2730
+No improvement for 9 epoch(s).
+Dataset 2 | Epoch 29/100
+Training Accuracy: 0.4819
+Validation Accuracy: 0.5000, Loss: 3.2326
+No improvement for 10 epoch(s).
+Dataset 2 | Epoch 30/100
+Training Accuracy: 0.5965
+Validation Accuracy: 0.5246, Loss: 3.0862
+No improvement for 11 epoch(s).
+Dataset 2 | Epoch 31/100
+Training Accuracy: 0.3797
+Validation Accuracy: 0.5317, Loss: 3.1680
+New best model saved with validation accuracy: 0.5317
+Dataset 2 | Epoch 32/100
+Training Accuracy: 0.5463
+Validation Accuracy: 0.5246, Loss: 3.1827
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 33/100
+Training Accuracy: 0.5894
+Validation Accuracy: 0.5141, Loss: 3.1691
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 34/100
+Training Accuracy: 0.4485
+Validation Accuracy: 0.5246, Loss: 3.1517
+No improvement for 3 epoch(s).
+Dataset 2 | Epoch 35/100
+Training Accuracy: 0.6282
+Validation Accuracy: 0.5423, Loss: 3.2715
+New best model saved with validation accuracy: 0.5423
+Dataset 2 | Epoch 36/100
+Training Accuracy: 0.5075
+Validation Accuracy: 0.5211, Loss: 3.1214
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 37/100
+Training Accuracy: 0.5057
+Validation Accuracy: 0.5106, Loss: 3.1413
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 38/100
+Training Accuracy: 0.3736
+Validation Accuracy: 0.5070, Loss: 3.1326
+No improvement for 3 epoch(s).
+Dataset 2 | Epoch 39/100
+Training Accuracy: 0.4573
+Validation Accuracy: 0.5317, Loss: 3.1476
+No improvement for 4 epoch(s).
+Dataset 2 | Epoch 40/100
+Training Accuracy: 0.3630
+Validation Accuracy: 0.5317, Loss: 3.0847
+No improvement for 5 epoch(s).
+Dataset 2 | Epoch 41/100
+Training Accuracy: 0.4115
+Validation Accuracy: 0.5246, Loss: 3.1979
+No improvement for 6 epoch(s).
+Dataset 2 | Epoch 42/100
+Training Accuracy: 0.4978
+Validation Accuracy: 0.5246, Loss: 3.1185
+No improvement for 7 epoch(s).
+Dataset 2 | Epoch 43/100
+Training Accuracy: 0.4960
+Validation Accuracy: 0.5317, Loss: 3.1738
+No improvement for 8 epoch(s).
+Dataset 2 | Epoch 44/100
+Training Accuracy: 0.5489
+Validation Accuracy: 0.5423, Loss: 3.0854
+No improvement for 9 epoch(s).
+Dataset 2 | Epoch 45/100
+Training Accuracy: 0.3718
+Validation Accuracy: 0.5352, Loss: 3.1326
+No improvement for 10 epoch(s).
+Dataset 2 | Epoch 46/100
+Training Accuracy: 0.4749
+Validation Accuracy: 0.5423, Loss: 3.1082
+No improvement for 11 epoch(s).
+Dataset 2 | Epoch 47/100
+Training Accuracy: 0.5930
+Validation Accuracy: 0.5317, Loss: 3.1823
+No improvement for 12 epoch(s).
+Dataset 2 | Epoch 48/100
+Training Accuracy: 0.4775
+Validation Accuracy: 0.5211, Loss: 3.1884
+No improvement for 13 epoch(s).
+Dataset 2 | Epoch 49/100
+Training Accuracy: 0.6256
+Validation Accuracy: 0.5176, Loss: 3.1954
+No improvement for 14 epoch(s).
+Dataset 2 | Epoch 50/100
+Training Accuracy: 0.5392
+Validation Accuracy: 0.5387, Loss: 3.1940
+No improvement for 15 epoch(s).
 Early stopping triggered.
 Training complete for Dataset part 2.
 
 Starting training for dataset part 3...
 Dataset 3 | Epoch 1/100
-Training Accuracy: 0.0076
-Validation Accuracy: 0.0000
-No improvement for 1 epoch(s).
-Dataset 3 | Epoch 2/100
-Training Accuracy: 0.0172
-Validation Accuracy: 0.0038
+Training Accuracy: 0.0000
+Validation Accuracy: 0.0038, Loss: 6.1281
 New best model saved with validation accuracy: 0.0038
+Dataset 3 | Epoch 2/100
+Training Accuracy: 0.0201
+Validation Accuracy: 0.0076, Loss: 6.0787
+New best model saved with validation accuracy: 0.0076
 Dataset 3 | Epoch 3/100
-Training Accuracy: 0.0373
-Validation Accuracy: 0.0229
-New best model saved with validation accuracy: 0.0229
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0793
+Validation Accuracy: 0.0725, Loss: 5.8340
+New best model saved with validation accuracy: 0.0725
 Dataset 3 | Epoch 4/100
-Training Accuracy: 0.0908
-Validation Accuracy: 0.0305
-New best model saved with validation accuracy: 0.0305
+Training Accuracy: 0.1922
+Validation Accuracy: 0.1107, Loss: 5.4968
+New best model saved with validation accuracy: 0.1107
 Dataset 3 | Epoch 5/100
-Training Accuracy: 0.1864
-Validation Accuracy: 0.0382
-New best model saved with validation accuracy: 0.0382
+Training Accuracy: 0.2859
+Validation Accuracy: 0.1412, Loss: 5.2552
+New best model saved with validation accuracy: 0.1412
 Dataset 3 | Epoch 6/100
-Training Accuracy: 0.3222
-Validation Accuracy: 0.0649
-New best model saved with validation accuracy: 0.0649
+Training Accuracy: 0.2514
+Validation Accuracy: 0.1947, Loss: 5.0094
+New best model saved with validation accuracy: 0.1947
 Dataset 3 | Epoch 7/100
-Training Accuracy: 0.5067
-Validation Accuracy: 0.0878
-New best model saved with validation accuracy: 0.0878
+Training Accuracy: 0.4493
+Validation Accuracy: 0.2176, Loss: 4.8141
+New best model saved with validation accuracy: 0.2176
 Dataset 3 | Epoch 8/100
-Training Accuracy: 0.6463
-Validation Accuracy: 0.1336
-New best model saved with validation accuracy: 0.1336
-Dataset 3 | Epoch 9/100
-Training Accuracy: 0.7792
-Validation Accuracy: 0.1450
-New best model saved with validation accuracy: 0.1450
-Dataset 3 | Epoch 10/100
-Training Accuracy: 0.8489
-Validation Accuracy: 0.1641
-New best model saved with validation accuracy: 0.1641
-Dataset 3 | Epoch 11/100
-Training Accuracy: 0.8901
-Validation Accuracy: 0.1260
+Training Accuracy: 0.6281
+Validation Accuracy: 0.2099, Loss: 4.7545
 No improvement for 1 epoch(s).
+Dataset 3 | Epoch 9/100
+Training Accuracy: 0.5191
+Validation Accuracy: 0.2328, Loss: 4.5880
+New best model saved with validation accuracy: 0.2328
+Dataset 3 | Epoch 10/100
+Training Accuracy: 0.7553
+Validation Accuracy: 0.2214, Loss: 4.5736
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 11/100
+Training Accuracy: 0.4073
+Validation Accuracy: 0.2481, Loss: 4.5324
+New best model saved with validation accuracy: 0.2481
 Dataset 3 | Epoch 12/100
-Training Accuracy: 0.9273
-Validation Accuracy: 0.1908
-New best model saved with validation accuracy: 0.1908
+Training Accuracy: 0.5363
+Validation Accuracy: 0.2634, Loss: 4.4416
+New best model saved with validation accuracy: 0.2634
 Dataset 3 | Epoch 13/100
-Training Accuracy: 0.9446
-Validation Accuracy: 0.1679
+Training Accuracy: 0.5956
+Validation Accuracy: 0.2328, Loss: 4.4713
 No improvement for 1 epoch(s).
 Dataset 3 | Epoch 14/100
-Training Accuracy: 0.9398
-Validation Accuracy: 0.1603
-No improvement for 2 epoch(s).
+Training Accuracy: 0.4809
+Validation Accuracy: 0.2939, Loss: 4.4773
+New best model saved with validation accuracy: 0.2939
 Dataset 3 | Epoch 15/100
-Training Accuracy: 0.9532
-Validation Accuracy: 0.2176
-New best model saved with validation accuracy: 0.2176
+Training Accuracy: 0.5124
+Validation Accuracy: 0.2786, Loss: 4.3668
+No improvement for 1 epoch(s).
 Dataset 3 | Epoch 16/100
-Training Accuracy: 0.9618
-Validation Accuracy: 0.2214
-New best model saved with validation accuracy: 0.2214
+Training Accuracy: 0.4140
+Validation Accuracy: 0.2481, Loss: 4.3857
+No improvement for 2 epoch(s).
 Dataset 3 | Epoch 17/100
-Training Accuracy: 0.9742
-Validation Accuracy: 0.2176
-No improvement for 1 epoch(s).
-Dataset 3 | Epoch 18/100
-Training Accuracy: 0.9799
-Validation Accuracy: 0.2137
-No improvement for 2 epoch(s).
-Dataset 3 | Epoch 19/100
-Training Accuracy: 0.9780
-Validation Accuracy: 0.2252
-New best model saved with validation accuracy: 0.2252
-Dataset 3 | Epoch 20/100
-Training Accuracy: 0.9780
-Validation Accuracy: 0.1756
-No improvement for 1 epoch(s).
-Dataset 3 | Epoch 21/100
-Training Accuracy: 0.9799
-Validation Accuracy: 0.2252
-No improvement for 2 epoch(s).
-Dataset 3 | Epoch 22/100
-Training Accuracy: 0.9847
-Validation Accuracy: 0.1832
+Training Accuracy: 0.5038
+Validation Accuracy: 0.2519, Loss: 4.3812
 No improvement for 3 epoch(s).
-Dataset 3 | Epoch 23/100
-Training Accuracy: 0.9732
-Validation Accuracy: 0.2023
+Dataset 3 | Epoch 18/100
+Training Accuracy: 0.6415
+Validation Accuracy: 0.2519, Loss: 4.5004
 No improvement for 4 epoch(s).
-Dataset 3 | Epoch 24/100
-Training Accuracy: 0.9866
-Validation Accuracy: 0.2137
+Dataset 3 | Epoch 19/100
+Training Accuracy: 0.4771
+Validation Accuracy: 0.2672, Loss: 4.3322
 No improvement for 5 epoch(s).
+Dataset 3 | Epoch 20/100
+Training Accuracy: 0.4159
+Validation Accuracy: 0.2710, Loss: 4.3891
+No improvement for 6 epoch(s).
+Dataset 3 | Epoch 21/100
+Training Accuracy: 0.4732
+Validation Accuracy: 0.2786, Loss: 4.3718
+No improvement for 7 epoch(s).
+Dataset 3 | Epoch 22/100
+Training Accuracy: 0.5440
+Validation Accuracy: 0.2977, Loss: 4.2952
+New best model saved with validation accuracy: 0.2977
+Dataset 3 | Epoch 23/100
+Training Accuracy: 0.5134
+Validation Accuracy: 0.2824, Loss: 4.2616
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 24/100
+Training Accuracy: 0.4924
+Validation Accuracy: 0.2595, Loss: 4.2244
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 25/100
+Training Accuracy: 0.5239
+Validation Accuracy: 0.3053, Loss: 4.2974
+New best model saved with validation accuracy: 0.3053
+Dataset 3 | Epoch 26/100
+Training Accuracy: 0.5478
+Validation Accuracy: 0.2824, Loss: 4.1627
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 27/100
+Training Accuracy: 0.4637
+Validation Accuracy: 0.2557, Loss: 4.4504
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 28/100
+Training Accuracy: 0.4417
+Validation Accuracy: 0.2824, Loss: 4.2268
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 29/100
+Training Accuracy: 0.5363
+Validation Accuracy: 0.3015, Loss: 4.2674
+No improvement for 4 epoch(s).
+Dataset 3 | Epoch 30/100
+Training Accuracy: 0.6816
+Validation Accuracy: 0.2939, Loss: 4.2363
+No improvement for 5 epoch(s).
+Dataset 3 | Epoch 31/100
+Training Accuracy: 0.4187
+Validation Accuracy: 0.3435, Loss: 4.2094
+New best model saved with validation accuracy: 0.3435
+Dataset 3 | Epoch 32/100
+Training Accuracy: 0.4082
+Validation Accuracy: 0.3092, Loss: 4.1714
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 33/100
+Training Accuracy: 0.4503
+Validation Accuracy: 0.3168, Loss: 4.1762
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 34/100
+Training Accuracy: 0.5134
+Validation Accuracy: 0.3282, Loss: 4.1214
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 35/100
+Training Accuracy: 0.3910
+Validation Accuracy: 0.2977, Loss: 4.1651
+No improvement for 4 epoch(s).
+Dataset 3 | Epoch 36/100
+Training Accuracy: 0.4465
+Validation Accuracy: 0.2863, Loss: 4.1587
+No improvement for 5 epoch(s).
+Dataset 3 | Epoch 37/100
+Training Accuracy: 0.4704
+Validation Accuracy: 0.3168, Loss: 4.1498
+No improvement for 6 epoch(s).
+Dataset 3 | Epoch 38/100
+Training Accuracy: 0.5927
+Validation Accuracy: 0.3130, Loss: 4.1769
+No improvement for 7 epoch(s).
+Dataset 3 | Epoch 39/100
+Training Accuracy: 0.4006
+Validation Accuracy: 0.2939, Loss: 4.2159
+No improvement for 8 epoch(s).
+Dataset 3 | Epoch 40/100
+Training Accuracy: 0.4369
+Validation Accuracy: 0.2863, Loss: 4.2243
+No improvement for 9 epoch(s).
+Dataset 3 | Epoch 41/100
+Training Accuracy: 0.4962
+Validation Accuracy: 0.3130, Loss: 4.3083
+No improvement for 10 epoch(s).
+Dataset 3 | Epoch 42/100
+Training Accuracy: 0.6530
+Validation Accuracy: 0.2977, Loss: 4.1672
+No improvement for 11 epoch(s).
+Dataset 3 | Epoch 43/100
+Training Accuracy: 0.3556
+Validation Accuracy: 0.3206, Loss: 4.1431
+No improvement for 12 epoch(s).
+Dataset 3 | Epoch 44/100
+Training Accuracy: 0.5210
+Validation Accuracy: 0.2748, Loss: 4.1462
+No improvement for 13 epoch(s).
+Dataset 3 | Epoch 45/100
+Training Accuracy: 0.5727
+Validation Accuracy: 0.2939, Loss: 4.1515
+No improvement for 14 epoch(s).
+Dataset 3 | Epoch 46/100
+Training Accuracy: 0.4512
+Validation Accuracy: 0.2977, Loss: 4.1313
+No improvement for 15 epoch(s).
 Early stopping triggered.
 Training complete for Dataset part 3.
 
 Starting training for dataset part 4...
 Dataset 4 | Epoch 1/100
-Training Accuracy: 0.0146
-Validation Accuracy: 0.0109
+Training Accuracy: 0.0018
+Validation Accuracy: 0.0109, Loss: 6.1106
 New best model saved with validation accuracy: 0.0109
 Dataset 4 | Epoch 2/100
-Training Accuracy: 0.0564
-Validation Accuracy: 0.0400
+Training Accuracy: 0.0191
+Validation Accuracy: 0.0400, Loss: 6.0677
 New best model saved with validation accuracy: 0.0400
 Dataset 4 | Epoch 3/100
-Training Accuracy: 0.1374
-Validation Accuracy: 0.0473
-New best model saved with validation accuracy: 0.0473
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0710
+Validation Accuracy: 0.0655, Loss: 5.6456
+New best model saved with validation accuracy: 0.0655
 Dataset 4 | Epoch 4/100
-Training Accuracy: 0.2775
-Validation Accuracy: 0.1418
-New best model saved with validation accuracy: 0.1418
+Training Accuracy: 0.1611
+Validation Accuracy: 0.1309, Loss: 5.0542
+New best model saved with validation accuracy: 0.1309
 Dataset 4 | Epoch 5/100
-Training Accuracy: 0.5259
-Validation Accuracy: 0.2000
-New best model saved with validation accuracy: 0.2000
+Training Accuracy: 0.3130
+Validation Accuracy: 0.2073, Loss: 4.5160
+New best model saved with validation accuracy: 0.2073
 Dataset 4 | Epoch 6/100
-Training Accuracy: 0.7043
-Validation Accuracy: 0.2655
-New best model saved with validation accuracy: 0.2655
+Training Accuracy: 0.4186
+Validation Accuracy: 0.2364, Loss: 4.3417
+New best model saved with validation accuracy: 0.2364
 Dataset 4 | Epoch 7/100
-Training Accuracy: 0.8144
-Validation Accuracy: 0.2836
-New best model saved with validation accuracy: 0.2836
+Training Accuracy: 0.4104
+Validation Accuracy: 0.2764, Loss: 4.0358
+New best model saved with validation accuracy: 0.2764
 Dataset 4 | Epoch 8/100
-Training Accuracy: 0.8935
-Validation Accuracy: 0.2618
-No improvement for 1 epoch(s).
+Training Accuracy: 0.4313
+Validation Accuracy: 0.2800, Loss: 3.9396
+New best model saved with validation accuracy: 0.2800
 Dataset 4 | Epoch 9/100
-Training Accuracy: 0.9154
-Validation Accuracy: 0.3055
-New best model saved with validation accuracy: 0.3055
+Training Accuracy: 0.5378
+Validation Accuracy: 0.3273, Loss: 3.7945
+New best model saved with validation accuracy: 0.3273
 Dataset 4 | Epoch 10/100
-Training Accuracy: 0.9363
-Validation Accuracy: 0.3055
-No improvement for 1 epoch(s).
-Dataset 4 | Epoch 11/100
-Training Accuracy: 0.9427
-Validation Accuracy: 0.3309
+Training Accuracy: 0.6206
+Validation Accuracy: 0.3309, Loss: 3.8702
 New best model saved with validation accuracy: 0.3309
+Dataset 4 | Epoch 11/100
+Training Accuracy: 0.6060
+Validation Accuracy: 0.3345, Loss: 3.7794
+New best model saved with validation accuracy: 0.3345
 Dataset 4 | Epoch 12/100
-Training Accuracy: 0.9645
-Validation Accuracy: 0.3455
-New best model saved with validation accuracy: 0.3455
+Training Accuracy: 0.5114
+Validation Accuracy: 0.3673, Loss: 3.6171
+New best model saved with validation accuracy: 0.3673
 Dataset 4 | Epoch 13/100
-Training Accuracy: 0.9691
-Validation Accuracy: 0.3127
+Training Accuracy: 0.6078
+Validation Accuracy: 0.3309, Loss: 3.6909
 No improvement for 1 epoch(s).
 Dataset 4 | Epoch 14/100
-Training Accuracy: 0.9691
-Validation Accuracy: 0.3491
-New best model saved with validation accuracy: 0.3491
-Dataset 4 | Epoch 15/100
-Training Accuracy: 0.9736
-Validation Accuracy: 0.3345
-No improvement for 1 epoch(s).
-Dataset 4 | Epoch 16/100
-Training Accuracy: 0.9691
-Validation Accuracy: 0.3236
+Training Accuracy: 0.5314
+Validation Accuracy: 0.3309, Loss: 3.6557
 No improvement for 2 epoch(s).
-Dataset 4 | Epoch 17/100
-Training Accuracy: 0.9773
-Validation Accuracy: 0.3055
+Dataset 4 | Epoch 15/100
+Training Accuracy: 0.5369
+Validation Accuracy: 0.3236, Loss: 3.6025
 No improvement for 3 epoch(s).
-Dataset 4 | Epoch 18/100
-Training Accuracy: 0.9691
-Validation Accuracy: 0.3018
+Dataset 4 | Epoch 16/100
+Training Accuracy: 0.5250
+Validation Accuracy: 0.3345, Loss: 3.6452
 No improvement for 4 epoch(s).
-Dataset 4 | Epoch 19/100
-Training Accuracy: 0.9727
-Validation Accuracy: 0.2800
+Dataset 4 | Epoch 17/100
+Training Accuracy: 0.4832
+Validation Accuracy: 0.3636, Loss: 3.7096
 No improvement for 5 epoch(s).
+Dataset 4 | Epoch 18/100
+Training Accuracy: 0.5369
+Validation Accuracy: 0.3745, Loss: 3.5813
+New best model saved with validation accuracy: 0.3745
+Dataset 4 | Epoch 19/100
+Training Accuracy: 0.4659
+Validation Accuracy: 0.3673, Loss: 3.5739
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 20/100
+Training Accuracy: 0.4641
+Validation Accuracy: 0.3745, Loss: 3.6168
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 21/100
+Training Accuracy: 0.5341
+Validation Accuracy: 0.4000, Loss: 3.4379
+New best model saved with validation accuracy: 0.4000
+Dataset 4 | Epoch 22/100
+Training Accuracy: 0.5223
+Validation Accuracy: 0.3818, Loss: 3.4963
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 23/100
+Training Accuracy: 0.3822
+Validation Accuracy: 0.3636, Loss: 3.5272
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 24/100
+Training Accuracy: 0.4813
+Validation Accuracy: 0.3782, Loss: 3.5624
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 25/100
+Training Accuracy: 0.5223
+Validation Accuracy: 0.3745, Loss: 3.5391
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 26/100
+Training Accuracy: 0.5560
+Validation Accuracy: 0.3927, Loss: 3.4686
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 27/100
+Training Accuracy: 0.5760
+Validation Accuracy: 0.3964, Loss: 3.5009
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 28/100
+Training Accuracy: 0.4977
+Validation Accuracy: 0.4036, Loss: 3.4915
+New best model saved with validation accuracy: 0.4036
+Dataset 4 | Epoch 29/100
+Training Accuracy: 0.5532
+Validation Accuracy: 0.4182, Loss: 3.5206
+New best model saved with validation accuracy: 0.4182
+Dataset 4 | Epoch 30/100
+Training Accuracy: 0.6005
+Validation Accuracy: 0.4036, Loss: 3.4087
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 31/100
+Training Accuracy: 0.4704
+Validation Accuracy: 0.4073, Loss: 3.3937
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 32/100
+Training Accuracy: 0.5068
+Validation Accuracy: 0.4000, Loss: 3.5181
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 33/100
+Training Accuracy: 0.4686
+Validation Accuracy: 0.3964, Loss: 3.4562
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 34/100
+Training Accuracy: 0.6269
+Validation Accuracy: 0.4036, Loss: 3.4410
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 35/100
+Training Accuracy: 0.4449
+Validation Accuracy: 0.3782, Loss: 3.4551
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 36/100
+Training Accuracy: 0.4404
+Validation Accuracy: 0.4036, Loss: 3.4935
+No improvement for 7 epoch(s).
+Dataset 4 | Epoch 37/100
+Training Accuracy: 0.5032
+Validation Accuracy: 0.4036, Loss: 3.4741
+No improvement for 8 epoch(s).
+Dataset 4 | Epoch 38/100
+Training Accuracy: 0.6561
+Validation Accuracy: 0.4436, Loss: 3.4250
+New best model saved with validation accuracy: 0.4436
+Dataset 4 | Epoch 39/100
+Training Accuracy: 0.4995
+Validation Accuracy: 0.4000, Loss: 3.4745
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 40/100
+Training Accuracy: 0.5278
+Validation Accuracy: 0.3927, Loss: 3.4527
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 41/100
+Training Accuracy: 0.6187
+Validation Accuracy: 0.4218, Loss: 3.4823
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 42/100
+Training Accuracy: 0.5678
+Validation Accuracy: 0.4000, Loss: 3.4423
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 43/100
+Training Accuracy: 0.6033
+Validation Accuracy: 0.3927, Loss: 3.5105
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 44/100
+Training Accuracy: 0.4986
+Validation Accuracy: 0.4145, Loss: 3.4746
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 45/100
+Training Accuracy: 0.5460
+Validation Accuracy: 0.4182, Loss: 3.5277
+No improvement for 7 epoch(s).
+Dataset 4 | Epoch 46/100
+Training Accuracy: 0.5341
+Validation Accuracy: 0.4182, Loss: 3.4540
+No improvement for 8 epoch(s).
+Dataset 4 | Epoch 47/100
+Training Accuracy: 0.4113
+Validation Accuracy: 0.4327, Loss: 3.4519
+No improvement for 9 epoch(s).
+Dataset 4 | Epoch 48/100
+Training Accuracy: 0.5396
+Validation Accuracy: 0.3927, Loss: 3.5397
+No improvement for 10 epoch(s).
+Dataset 4 | Epoch 49/100
+Training Accuracy: 0.4550
+Validation Accuracy: 0.4109, Loss: 3.3902
+No improvement for 11 epoch(s).
+Dataset 4 | Epoch 50/100
+Training Accuracy: 0.4568
+Validation Accuracy: 0.4291, Loss: 3.4956
+No improvement for 12 epoch(s).
+Dataset 4 | Epoch 51/100
+Training Accuracy: 0.5851
+Validation Accuracy: 0.4145, Loss: 3.4164
+No improvement for 13 epoch(s).
+Dataset 4 | Epoch 52/100
+Training Accuracy: 0.4877
+Validation Accuracy: 0.3782, Loss: 3.5456
+No improvement for 14 epoch(s).
+Dataset 4 | Epoch 53/100
+Training Accuracy: 0.4413
+Validation Accuracy: 0.4364, Loss: 3.4102
+No improvement for 15 epoch(s).
 Early stopping triggered.
 Training complete for Dataset part 4.
 
 Starting training for dataset part 5...
 Dataset 5 | Epoch 1/100
-Training Accuracy: 0.0083
-Validation Accuracy: 0.0000
-No improvement for 1 epoch(s).
+Training Accuracy: 0.0037
+Validation Accuracy: 0.0147, Loss: 6.1204
+New best model saved with validation accuracy: 0.0147
 Dataset 5 | Epoch 2/100
-Training Accuracy: 0.0285
+Training Accuracy: 0.0184
+Validation Accuracy: 0.0294, Loss: 6.0314
+New best model saved with validation accuracy: 0.0294
+Dataset 5 | Epoch 3/100
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0690
+Validation Accuracy: 0.0772, Loss: 5.7140
+New best model saved with validation accuracy: 0.0772
+Dataset 5 | Epoch 4/100
+Training Accuracy: 0.1472
+Validation Accuracy: 0.1140, Loss: 5.2345
+New best model saved with validation accuracy: 0.1140
+Dataset 5 | Epoch 5/100
+Training Accuracy: 0.3293
+Validation Accuracy: 0.2206, Loss: 4.7977
+New best model saved with validation accuracy: 0.2206
+Dataset 5 | Epoch 6/100
+Training Accuracy: 0.5419
+Validation Accuracy: 0.2794, Loss: 4.3525
+New best model saved with validation accuracy: 0.2794
+Dataset 5 | Epoch 7/100
+Training Accuracy: 0.3643
+Validation Accuracy: 0.2941, Loss: 4.1506
+New best model saved with validation accuracy: 0.2941
+Dataset 5 | Epoch 8/100
+Training Accuracy: 0.4756
+Validation Accuracy: 0.3640, Loss: 3.8942
+New best model saved with validation accuracy: 0.3640
+Dataset 5 | Epoch 9/100
+Training Accuracy: 0.4600
+Validation Accuracy: 0.3787, Loss: 3.7630
+New best model saved with validation accuracy: 0.3787
+Dataset 5 | Epoch 10/100
+Training Accuracy: 0.3790
+Validation Accuracy: 0.3603, Loss: 3.7829
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 11/100
+Training Accuracy: 0.5842
+Validation Accuracy: 0.3419, Loss: 3.9471
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 12/100
+Training Accuracy: 0.4627
+Validation Accuracy: 0.4007, Loss: 3.7014
+New best model saved with validation accuracy: 0.4007
+Dataset 5 | Epoch 13/100
+Training Accuracy: 0.5152
+Validation Accuracy: 0.3603, Loss: 3.8074
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 14/100
+Training Accuracy: 0.4112
+Validation Accuracy: 0.3860, Loss: 3.6780
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 15/100
+Training Accuracy: 0.5225
+Validation Accuracy: 0.3713, Loss: 3.6492
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 16/100
+Training Accuracy: 0.4811
+Validation Accuracy: 0.4081, Loss: 3.6325
+New best model saved with validation accuracy: 0.4081
+Dataset 5 | Epoch 17/100
+Training Accuracy: 0.5262
+Validation Accuracy: 0.4228, Loss: 3.6216
+New best model saved with validation accuracy: 0.4228
+Dataset 5 | Epoch 18/100
+Training Accuracy: 0.4949
+Validation Accuracy: 0.4007, Loss: 3.5968
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 19/100
+Training Accuracy: 0.5409
+Validation Accuracy: 0.4412, Loss: 3.5508
+New best model saved with validation accuracy: 0.4412
+Dataset 5 | Epoch 20/100
+Training Accuracy: 0.4407
+Validation Accuracy: 0.4154, Loss: 3.6601
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 21/100
+Training Accuracy: 0.5023
+Validation Accuracy: 0.4081, Loss: 3.6154
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 22/100
+Training Accuracy: 0.6063
+Validation Accuracy: 0.4301, Loss: 3.5065
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 23/100
+Training Accuracy: 0.4315
+Validation Accuracy: 0.4081, Loss: 3.5609
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 24/100
+Training Accuracy: 0.4066
+Validation Accuracy: 0.4118, Loss: 3.6132
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 25/100
+Training Accuracy: 0.5262
+Validation Accuracy: 0.4154, Loss: 3.6039
+No improvement for 6 epoch(s).
+Dataset 5 | Epoch 26/100
+Training Accuracy: 0.5465
+Validation Accuracy: 0.4007, Loss: 3.6022
+No improvement for 7 epoch(s).
+Dataset 5 | Epoch 27/100
+Training Accuracy: 0.4554
+Validation Accuracy: 0.4118, Loss: 3.6210
+No improvement for 8 epoch(s).
+Dataset 5 | Epoch 28/100
+Training Accuracy: 0.6191
+Validation Accuracy: 0.4485, Loss: 3.5274
+New best model saved with validation accuracy: 0.4485
+Dataset 5 | Epoch 29/100
+Training Accuracy: 0.3165
+Validation Accuracy: 0.4449, Loss: 3.3932
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 30/100
+Training Accuracy: 0.4885
+Validation Accuracy: 0.4743, Loss: 3.4660
+New best model saved with validation accuracy: 0.4743
+Dataset 5 | Epoch 31/100
+Training Accuracy: 0.4480
+Validation Accuracy: 0.4191, Loss: 3.5563
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 32/100
+Training Accuracy: 0.5538
+Validation Accuracy: 0.4338, Loss: 3.4650
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 33/100
+Training Accuracy: 0.5391
+Validation Accuracy: 0.4301, Loss: 3.4699
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 34/100
+Training Accuracy: 0.4637
+Validation Accuracy: 0.4375, Loss: 3.4835
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 35/100
+Training Accuracy: 0.4361
+Validation Accuracy: 0.4449, Loss: 3.5871
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 36/100
+Training Accuracy: 0.5842
+Validation Accuracy: 0.4265, Loss: 3.5470
+No improvement for 6 epoch(s).
+Dataset 5 | Epoch 37/100
+Training Accuracy: 0.5271
+Validation Accuracy: 0.4596, Loss: 3.5005
+No improvement for 7 epoch(s).
+Dataset 5 | Epoch 38/100
+Training Accuracy: 0.6339
+Validation Accuracy: 0.4449, Loss: 3.4712
+No improvement for 8 epoch(s).
+Dataset 5 | Epoch 39/100
+Training Accuracy: 0.5759
+Validation Accuracy: 0.4265, Loss: 3.5197
+No improvement for 9 epoch(s).
+Dataset 5 | Epoch 40/100
+Training Accuracy: 0.3735
+Validation Accuracy: 0.4412, Loss: 3.4885
+No improvement for 10 epoch(s).
+Dataset 5 | Epoch 41/100
+Training Accuracy: 0.4719
+Validation Accuracy: 0.4596, Loss: 3.5344
+No improvement for 11 epoch(s).
+Dataset 5 | Epoch 42/100
+Training Accuracy: 0.5501
+Validation Accuracy: 0.4485, Loss: 3.4714
+No improvement for 12 epoch(s).
+Dataset 5 | Epoch 43/100
+Training Accuracy: 0.4793
+Validation Accuracy: 0.4706, Loss: 3.4926
+No improvement for 13 epoch(s).
+Dataset 5 | Epoch 44/100
+Training Accuracy: 0.5630
+Validation Accuracy: 0.4375, Loss: 3.4711
+No improvement for 14 epoch(s).
+Dataset 5 | Epoch 45/100
+Training Accuracy: 0.3661
+Validation Accuracy: 0.4632, Loss: 3.3991
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 5.
+
+Starting training for dataset part 6...
+Dataset 6 | Epoch 1/100
+Training Accuracy: 0.0054
+Validation Accuracy: 0.0108, Loss: 6.1354
+New best model saved with validation accuracy: 0.0108
+Dataset 6 | Epoch 2/100
+Training Accuracy: 0.0163
+Validation Accuracy: 0.0253, Loss: 6.1016
+New best model saved with validation accuracy: 0.0253
+Dataset 6 | Epoch 3/100
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0561
+Validation Accuracy: 0.0830, Loss: 5.7947
+New best model saved with validation accuracy: 0.0830
+Dataset 6 | Epoch 4/100
+Training Accuracy: 0.1149
+Validation Accuracy: 0.1588, Loss: 5.1384
+New best model saved with validation accuracy: 0.1588
+Dataset 6 | Epoch 5/100
+Training Accuracy: 0.2977
+Validation Accuracy: 0.2202, Loss: 4.6439
+New best model saved with validation accuracy: 0.2202
+Dataset 6 | Epoch 6/100
+Training Accuracy: 0.2480
+Validation Accuracy: 0.2347, Loss: 4.2959
+New best model saved with validation accuracy: 0.2347
+Dataset 6 | Epoch 7/100
+Training Accuracy: 0.5566
+Validation Accuracy: 0.2996, Loss: 4.0337
+New best model saved with validation accuracy: 0.2996
+Dataset 6 | Epoch 8/100
+Training Accuracy: 0.4262
+Validation Accuracy: 0.3069, Loss: 3.9742
+New best model saved with validation accuracy: 0.3069
+Dataset 6 | Epoch 9/100
+Training Accuracy: 0.4516
+Validation Accuracy: 0.2960, Loss: 3.7858
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 10/100
+Training Accuracy: 0.4697
+Validation Accuracy: 0.3357, Loss: 3.8357
+New best model saved with validation accuracy: 0.3357
+Dataset 6 | Epoch 11/100
+Training Accuracy: 0.4498
+Validation Accuracy: 0.3718, Loss: 3.7679
+New best model saved with validation accuracy: 0.3718
+Dataset 6 | Epoch 12/100
+Training Accuracy: 0.5520
+Validation Accuracy: 0.3394, Loss: 3.7493
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 13/100
+Training Accuracy: 0.5710
+Validation Accuracy: 0.3321, Loss: 3.7697
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 14/100
+Training Accuracy: 0.4407
+Validation Accuracy: 0.3682, Loss: 3.6924
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 15/100
+Training Accuracy: 0.6090
+Validation Accuracy: 0.3791, Loss: 3.6811
+New best model saved with validation accuracy: 0.3791
+Dataset 6 | Epoch 16/100
+Training Accuracy: 0.4109
+Validation Accuracy: 0.3646, Loss: 3.7864
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 17/100
+Training Accuracy: 0.6000
+Validation Accuracy: 0.3899, Loss: 3.6053
+New best model saved with validation accuracy: 0.3899
+Dataset 6 | Epoch 18/100
+Training Accuracy: 0.4688
+Validation Accuracy: 0.3791, Loss: 3.6719
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 19/100
+Training Accuracy: 0.5719
+Validation Accuracy: 0.3791, Loss: 3.7066
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 20/100
+Training Accuracy: 0.5991
+Validation Accuracy: 0.3718, Loss: 3.6991
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 21/100
+Training Accuracy: 0.5520
+Validation Accuracy: 0.3682, Loss: 3.6356
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 22/100
+Training Accuracy: 0.5367
+Validation Accuracy: 0.3718, Loss: 3.6931
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 23/100
+Training Accuracy: 0.5213
+Validation Accuracy: 0.3574, Loss: 3.7049
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 24/100
+Training Accuracy: 0.5294
+Validation Accuracy: 0.3791, Loss: 3.5726
+No improvement for 7 epoch(s).
+Dataset 6 | Epoch 25/100
+Training Accuracy: 0.4561
+Validation Accuracy: 0.4007, Loss: 3.5683
+New best model saved with validation accuracy: 0.4007
+Dataset 6 | Epoch 26/100
+Training Accuracy: 0.5294
+Validation Accuracy: 0.4007, Loss: 3.5439
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 27/100
+Training Accuracy: 0.4778
+Validation Accuracy: 0.4260, Loss: 3.6231
+New best model saved with validation accuracy: 0.4260
+Dataset 6 | Epoch 28/100
+Training Accuracy: 0.4534
+Validation Accuracy: 0.4188, Loss: 3.5282
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 29/100
+Training Accuracy: 0.5864
+Validation Accuracy: 0.4007, Loss: 3.6372
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 30/100
+Training Accuracy: 0.4977
+Validation Accuracy: 0.4260, Loss: 3.4840
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 31/100
+Training Accuracy: 0.4389
+Validation Accuracy: 0.3935, Loss: 3.5416
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 32/100
+Training Accuracy: 0.6371
+Validation Accuracy: 0.4188, Loss: 3.4649
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 33/100
+Training Accuracy: 0.5403
+Validation Accuracy: 0.4260, Loss: 3.4848
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 34/100
+Training Accuracy: 0.4507
+Validation Accuracy: 0.4007, Loss: 3.5441
+No improvement for 7 epoch(s).
+Dataset 6 | Epoch 35/100
+Training Accuracy: 0.5502
+Validation Accuracy: 0.4368, Loss: 3.4682
+New best model saved with validation accuracy: 0.4368
+Dataset 6 | Epoch 36/100
+Training Accuracy: 0.5023
+Validation Accuracy: 0.4152, Loss: 3.5000
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 37/100
+Training Accuracy: 0.4742
+Validation Accuracy: 0.4116, Loss: 3.4647
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 38/100
+Training Accuracy: 0.3665
+Validation Accuracy: 0.4368, Loss: 3.4569
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 39/100
+Training Accuracy: 0.6407
+Validation Accuracy: 0.4007, Loss: 3.5181
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 40/100
+Training Accuracy: 0.4543
+Validation Accuracy: 0.4079, Loss: 3.5247
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 41/100
+Training Accuracy: 0.4018
+Validation Accuracy: 0.4188, Loss: 3.4490
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 42/100
+Training Accuracy: 0.4045
+Validation Accuracy: 0.4440, Loss: 3.4261
+New best model saved with validation accuracy: 0.4440
+Dataset 6 | Epoch 43/100
+Training Accuracy: 0.4905
+Validation Accuracy: 0.4477, Loss: 3.3776
+New best model saved with validation accuracy: 0.4477
+Dataset 6 | Epoch 44/100
+Training Accuracy: 0.5149
+Validation Accuracy: 0.4296, Loss: 3.5053
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 45/100
+Training Accuracy: 0.4172
+Validation Accuracy: 0.4224, Loss: 3.4502
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 46/100
+Training Accuracy: 0.4109
+Validation Accuracy: 0.4043, Loss: 3.4652
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 47/100
+Training Accuracy: 0.5394
+Validation Accuracy: 0.4549, Loss: 3.4603
+New best model saved with validation accuracy: 0.4549
+Dataset 6 | Epoch 48/100
+Training Accuracy: 0.4941
+Validation Accuracy: 0.4404, Loss: 3.3757
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 49/100
+Training Accuracy: 0.3756
+Validation Accuracy: 0.4513, Loss: 3.4711
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 50/100
+Training Accuracy: 0.4977
+Validation Accuracy: 0.4477, Loss: 3.4049
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 51/100
+Training Accuracy: 0.4652
+Validation Accuracy: 0.4440, Loss: 3.3972
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 52/100
+Training Accuracy: 0.5520
+Validation Accuracy: 0.4477, Loss: 3.4107
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 53/100
+Training Accuracy: 0.7041
+Validation Accuracy: 0.4332, Loss: 3.4001
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 54/100
+Training Accuracy: 0.4570
+Validation Accuracy: 0.4513, Loss: 3.3131
+No improvement for 7 epoch(s).
+Dataset 6 | Epoch 55/100
+Training Accuracy: 0.5991
+Validation Accuracy: 0.4404, Loss: 3.4207
+No improvement for 8 epoch(s).
+Dataset 6 | Epoch 56/100
+Training Accuracy: 0.6118
+Validation Accuracy: 0.4332, Loss: 3.3724
+No improvement for 9 epoch(s).
+Dataset 6 | Epoch 57/100
+Training Accuracy: 0.4742
+Validation Accuracy: 0.4440, Loss: 3.3457
+No improvement for 10 epoch(s).
+Dataset 6 | Epoch 58/100
+Training Accuracy: 0.4914
+Validation Accuracy: 0.4513, Loss: 3.3514
+No improvement for 11 epoch(s).
+Dataset 6 | Epoch 59/100
+Training Accuracy: 0.4887
+Validation Accuracy: 0.4440, Loss: 3.3601
+No improvement for 12 epoch(s).
+Dataset 6 | Epoch 60/100
+Training Accuracy: 0.3674
+Validation Accuracy: 0.4404, Loss: 3.4061
+No improvement for 13 epoch(s).
+Dataset 6 | Epoch 61/100
+Training Accuracy: 0.4697
+Validation Accuracy: 0.4513, Loss: 3.3661
+No improvement for 14 epoch(s).
+Dataset 6 | Epoch 62/100
+Training Accuracy: 0.6018
+Validation Accuracy: 0.4368, Loss: 3.4052
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 6.
+
+Starting training for dataset part 7...
+Dataset 7 | Epoch 1/100
+Training Accuracy: 0.0027
+Validation Accuracy: 0.0109, Loss: 6.0381
+New best model saved with validation accuracy: 0.0109
+Dataset 7 | Epoch 2/100
+Training Accuracy: 0.0191
+Validation Accuracy: 0.0473, Loss: 5.8997
+New best model saved with validation accuracy: 0.0473
+Dataset 7 | Epoch 3/100
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0811
+Validation Accuracy: 0.1418, Loss: 5.2593
+New best model saved with validation accuracy: 0.1418
+Dataset 7 | Epoch 4/100
+Training Accuracy: 0.1849
+Validation Accuracy: 0.2545, Loss: 4.4315
+New best model saved with validation accuracy: 0.2545
+Dataset 7 | Epoch 5/100
+Training Accuracy: 0.3106
+Validation Accuracy: 0.3018, Loss: 4.0248
+New best model saved with validation accuracy: 0.3018
+Dataset 7 | Epoch 6/100
+Training Accuracy: 0.2832
+Validation Accuracy: 0.3818, Loss: 3.7228
+New best model saved with validation accuracy: 0.3818
+Dataset 7 | Epoch 7/100
+Training Accuracy: 0.5638
+Validation Accuracy: 0.3745, Loss: 3.7193
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 8/100
+Training Accuracy: 0.5483
+Validation Accuracy: 0.3818, Loss: 3.6514
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 9/100
+Training Accuracy: 0.4435
+Validation Accuracy: 0.3782, Loss: 3.5119
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 10/100
+Training Accuracy: 0.4545
+Validation Accuracy: 0.4400, Loss: 3.3938
+New best model saved with validation accuracy: 0.4400
+Dataset 7 | Epoch 11/100
+Training Accuracy: 0.4526
+Validation Accuracy: 0.4327, Loss: 3.4149
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 12/100
+Training Accuracy: 0.5128
+Validation Accuracy: 0.4436, Loss: 3.5026
+New best model saved with validation accuracy: 0.4436
+Dataset 7 | Epoch 13/100
+Training Accuracy: 0.5537
+Validation Accuracy: 0.4436, Loss: 3.3178
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 14/100
+Training Accuracy: 0.5428
+Validation Accuracy: 0.4545, Loss: 3.3476
+New best model saved with validation accuracy: 0.4545
+Dataset 7 | Epoch 15/100
+Training Accuracy: 0.5401
+Validation Accuracy: 0.4618, Loss: 3.3616
+New best model saved with validation accuracy: 0.4618
+Dataset 7 | Epoch 16/100
+Training Accuracy: 0.4745
+Validation Accuracy: 0.4691, Loss: 3.2771
+New best model saved with validation accuracy: 0.4691
+Dataset 7 | Epoch 17/100
+Training Accuracy: 0.4244
+Validation Accuracy: 0.4764, Loss: 3.2193
+New best model saved with validation accuracy: 0.4764
+Dataset 7 | Epoch 18/100
+Training Accuracy: 0.6011
+Validation Accuracy: 0.4618, Loss: 3.2575
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 19/100
+Training Accuracy: 0.5118
+Validation Accuracy: 0.4327, Loss: 3.3717
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 20/100
+Training Accuracy: 0.4754
+Validation Accuracy: 0.4364, Loss: 3.3337
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 21/100
+Training Accuracy: 0.5747
+Validation Accuracy: 0.4545, Loss: 3.3278
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 22/100
+Training Accuracy: 0.4545
+Validation Accuracy: 0.4182, Loss: 3.2779
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 23/100
+Training Accuracy: 0.4545
+Validation Accuracy: 0.4836, Loss: 3.2224
+New best model saved with validation accuracy: 0.4836
+Dataset 7 | Epoch 24/100
+Training Accuracy: 0.5756
+Validation Accuracy: 0.4509, Loss: 3.2139
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 25/100
+Training Accuracy: 0.4545
+Validation Accuracy: 0.4727, Loss: 3.2854
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 26/100
+Training Accuracy: 0.5565
+Validation Accuracy: 0.4764, Loss: 3.2573
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 27/100
+Training Accuracy: 0.5546
+Validation Accuracy: 0.4873, Loss: 3.2345
+New best model saved with validation accuracy: 0.4873
+Dataset 7 | Epoch 28/100
+Training Accuracy: 0.5984
+Validation Accuracy: 0.4764, Loss: 3.2279
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 29/100
+Training Accuracy: 0.4636
+Validation Accuracy: 0.4727, Loss: 3.1838
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 30/100
+Training Accuracy: 0.4408
+Validation Accuracy: 0.4655, Loss: 3.2132
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 31/100
+Training Accuracy: 0.4344
+Validation Accuracy: 0.4727, Loss: 3.1697
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 32/100
+Training Accuracy: 0.5719
+Validation Accuracy: 0.4582, Loss: 3.2521
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 33/100
+Training Accuracy: 0.4217
+Validation Accuracy: 0.4800, Loss: 3.2082
+No improvement for 6 epoch(s).
+Dataset 7 | Epoch 34/100
+Training Accuracy: 0.6239
+Validation Accuracy: 0.4836, Loss: 3.2753
+No improvement for 7 epoch(s).
+Dataset 7 | Epoch 35/100
+Training Accuracy: 0.6202
+Validation Accuracy: 0.4655, Loss: 3.2570
+No improvement for 8 epoch(s).
+Dataset 7 | Epoch 36/100
+Training Accuracy: 0.6366
+Validation Accuracy: 0.4764, Loss: 3.1175
+No improvement for 9 epoch(s).
+Dataset 7 | Epoch 37/100
+Training Accuracy: 0.4936
+Validation Accuracy: 0.4436, Loss: 3.2436
+No improvement for 10 epoch(s).
+Dataset 7 | Epoch 38/100
+Training Accuracy: 0.5774
+Validation Accuracy: 0.4836, Loss: 3.2479
+No improvement for 11 epoch(s).
+Dataset 7 | Epoch 39/100
+Training Accuracy: 0.6321
+Validation Accuracy: 0.4945, Loss: 3.1679
+New best model saved with validation accuracy: 0.4945
+Dataset 7 | Epoch 40/100
+Training Accuracy: 0.5000
+Validation Accuracy: 0.4618, Loss: 3.1276
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 41/100
+Training Accuracy: 0.5483
+Validation Accuracy: 0.4945, Loss: 3.2590
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 42/100
+Training Accuracy: 0.5091
+Validation Accuracy: 0.4873, Loss: 3.1852
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 43/100
+Training Accuracy: 0.3488
+Validation Accuracy: 0.4764, Loss: 3.1620
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 44/100
+Training Accuracy: 0.6257
+Validation Accuracy: 0.4800, Loss: 3.1556
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 45/100
+Training Accuracy: 0.5182
+Validation Accuracy: 0.4873, Loss: 3.1435
+No improvement for 6 epoch(s).
+Dataset 7 | Epoch 46/100
+Training Accuracy: 0.4299
+Validation Accuracy: 0.4909, Loss: 3.2462
+No improvement for 7 epoch(s).
+Dataset 7 | Epoch 47/100
+Training Accuracy: 0.4608
+Validation Accuracy: 0.4836, Loss: 3.2631
+No improvement for 8 epoch(s).
+Dataset 7 | Epoch 48/100
+Training Accuracy: 0.5100
+Validation Accuracy: 0.4727, Loss: 3.2204
+No improvement for 9 epoch(s).
+Dataset 7 | Epoch 49/100
+Training Accuracy: 0.5464
+Validation Accuracy: 0.4836, Loss: 3.1286
+No improvement for 10 epoch(s).
+Dataset 7 | Epoch 50/100
+Training Accuracy: 0.6056
+Validation Accuracy: 0.4764, Loss: 3.2312
+No improvement for 11 epoch(s).
+Dataset 7 | Epoch 51/100
+Training Accuracy: 0.5692
+Validation Accuracy: 0.4691, Loss: 3.1878
+No improvement for 12 epoch(s).
+Dataset 7 | Epoch 52/100
+Training Accuracy: 0.5383
+Validation Accuracy: 0.4982, Loss: 3.1915
+New best model saved with validation accuracy: 0.4982
+Dataset 7 | Epoch 53/100
+Training Accuracy: 0.5018
+Validation Accuracy: 0.4982, Loss: 3.1751
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 54/100
+Training Accuracy: 0.5592
+Validation Accuracy: 0.4873, Loss: 3.1594
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 55/100
+Training Accuracy: 0.6302
+Validation Accuracy: 0.4873, Loss: 3.2087
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 56/100
+Training Accuracy: 0.6056
+Validation Accuracy: 0.5164, Loss: 3.2090
+New best model saved with validation accuracy: 0.5164
+Dataset 7 | Epoch 57/100
+Training Accuracy: 0.4016
+Validation Accuracy: 0.4691, Loss: 3.2625
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 58/100
+Training Accuracy: 0.5674
+Validation Accuracy: 0.4836, Loss: 3.1938
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 59/100
+Training Accuracy: 0.5419
+Validation Accuracy: 0.4982, Loss: 3.1317
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 60/100
+Training Accuracy: 0.4426
+Validation Accuracy: 0.5055, Loss: 3.1199
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 61/100
+Training Accuracy: 0.4827
+Validation Accuracy: 0.5018, Loss: 3.1459
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 62/100
+Training Accuracy: 0.6448
+Validation Accuracy: 0.4836, Loss: 3.2096
+No improvement for 6 epoch(s).
+Dataset 7 | Epoch 63/100
+Training Accuracy: 0.4918
+Validation Accuracy: 0.4945, Loss: 3.2114
+No improvement for 7 epoch(s).
+Dataset 7 | Epoch 64/100
+Training Accuracy: 0.5401
+Validation Accuracy: 0.4655, Loss: 3.1554
+No improvement for 8 epoch(s).
+Dataset 7 | Epoch 65/100
+Training Accuracy: 0.4763
+Validation Accuracy: 0.4800, Loss: 3.1627
+No improvement for 9 epoch(s).
+Dataset 7 | Epoch 66/100
+Training Accuracy: 0.6576
+Validation Accuracy: 0.4873, Loss: 3.1337
+No improvement for 10 epoch(s).
+Dataset 7 | Epoch 67/100
+Training Accuracy: 0.5592
+Validation Accuracy: 0.4618, Loss: 3.2699
+No improvement for 11 epoch(s).
+Dataset 7 | Epoch 68/100
+Training Accuracy: 0.5774
+Validation Accuracy: 0.4800, Loss: 3.1224
+No improvement for 12 epoch(s).
+Dataset 7 | Epoch 69/100
+Training Accuracy: 0.6412
+Validation Accuracy: 0.4655, Loss: 3.2335
+No improvement for 13 epoch(s).
+Dataset 7 | Epoch 70/100
+Training Accuracy: 0.4244
+Validation Accuracy: 0.4836, Loss: 3.1728
+No improvement for 14 epoch(s).
+Dataset 7 | Epoch 71/100
+Training Accuracy: 0.5392
+Validation Accuracy: 0.4982, Loss: 3.1113
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 7.
+
+Starting training for dataset part 8...
+Dataset 8 | Epoch 1/100
+Training Accuracy: 0.0036
+Validation Accuracy: 0.0109, Loss: 6.1343
+New best model saved with validation accuracy: 0.0109
+Dataset 8 | Epoch 2/100
+Training Accuracy: 0.0136
+Validation Accuracy: 0.0145, Loss: 6.1271
+New best model saved with validation accuracy: 0.0145
+Dataset 8 | Epoch 3/100
+Unfroze layer4 and fc parameters for fine-tuning.
+Training Accuracy: 0.0728
+Validation Accuracy: 0.0800, Loss: 5.7490
+New best model saved with validation accuracy: 0.0800
+Dataset 8 | Epoch 4/100
+Training Accuracy: 0.1665
+Validation Accuracy: 0.1309, Loss: 5.2855
+New best model saved with validation accuracy: 0.1309
+Dataset 8 | Epoch 5/100
+Training Accuracy: 0.3367
+Validation Accuracy: 0.1818, Loss: 4.8971
+New best model saved with validation accuracy: 0.1818
+Dataset 8 | Epoch 6/100
+Training Accuracy: 0.4495
+Validation Accuracy: 0.2836, Loss: 4.4938
+New best model saved with validation accuracy: 0.2836
+Dataset 8 | Epoch 7/100
+Training Accuracy: 0.5032
+Validation Accuracy: 0.2545, Loss: 4.4581
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 8/100
+Training Accuracy: 0.4977
+Validation Accuracy: 0.3055, Loss: 4.2398
+New best model saved with validation accuracy: 0.3055
+Dataset 8 | Epoch 9/100
+Training Accuracy: 0.6561
+Validation Accuracy: 0.2618, Loss: 4.2616
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 10/100
+Training Accuracy: 0.4349
+Validation Accuracy: 0.2836, Loss: 4.2954
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 11/100
+Training Accuracy: 0.5032
+Validation Accuracy: 0.3273, Loss: 4.0169
+New best model saved with validation accuracy: 0.3273
+Dataset 8 | Epoch 12/100
+Training Accuracy: 0.4440
+Validation Accuracy: 0.2945, Loss: 4.1591
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 13/100
+Training Accuracy: 0.4522
+Validation Accuracy: 0.3418, Loss: 3.9794
+New best model saved with validation accuracy: 0.3418
+Dataset 8 | Epoch 14/100
+Training Accuracy: 0.5732
+Validation Accuracy: 0.3527, Loss: 3.9553
+New best model saved with validation accuracy: 0.3527
+Dataset 8 | Epoch 15/100
+Training Accuracy: 0.4850
+Validation Accuracy: 0.3345, Loss: 4.0117
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 16/100
+Training Accuracy: 0.4914
+Validation Accuracy: 0.3673, Loss: 3.8797
+New best model saved with validation accuracy: 0.3673
+Dataset 8 | Epoch 17/100
+Training Accuracy: 0.5077
+Validation Accuracy: 0.3527, Loss: 3.9727
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 18/100
+Training Accuracy: 0.5678
+Validation Accuracy: 0.3745, Loss: 3.8879
+New best model saved with validation accuracy: 0.3745
+Dataset 8 | Epoch 19/100
+Training Accuracy: 0.6206
+Validation Accuracy: 0.3673, Loss: 3.9052
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 20/100
+Training Accuracy: 0.6187
+Validation Accuracy: 0.3309, Loss: 3.9308
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 21/100
+Training Accuracy: 0.5714
+Validation Accuracy: 0.3527, Loss: 3.9575
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 22/100
+Training Accuracy: 0.3940
+Validation Accuracy: 0.3564, Loss: 3.9579
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 23/100
+Training Accuracy: 0.4067
+Validation Accuracy: 0.3491, Loss: 3.7902
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 24/100
+Training Accuracy: 0.5232
+Validation Accuracy: 0.3491, Loss: 3.8428
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 25/100
+Training Accuracy: 0.5423
+Validation Accuracy: 0.3964, Loss: 3.7742
+New best model saved with validation accuracy: 0.3964
+Dataset 8 | Epoch 26/100
+Training Accuracy: 0.4249
+Validation Accuracy: 0.3745, Loss: 3.8158
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 27/100
+Training Accuracy: 0.5632
+Validation Accuracy: 0.3636, Loss: 3.8944
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 28/100
+Training Accuracy: 0.4586
+Validation Accuracy: 0.3564, Loss: 3.8793
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 29/100
+Training Accuracy: 0.5587
+Validation Accuracy: 0.3600, Loss: 3.8115
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 30/100
+Training Accuracy: 0.4904
+Validation Accuracy: 0.3745, Loss: 3.7875
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 31/100
+Training Accuracy: 0.5523
+Validation Accuracy: 0.3564, Loss: 3.7620
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 32/100
+Training Accuracy: 0.5450
+Validation Accuracy: 0.3709, Loss: 3.7656
+No improvement for 7 epoch(s).
+Dataset 8 | Epoch 33/100
+Training Accuracy: 0.6187
+Validation Accuracy: 0.3309, Loss: 3.8838
+No improvement for 8 epoch(s).
+Dataset 8 | Epoch 34/100
+Training Accuracy: 0.4986
+Validation Accuracy: 0.3673, Loss: 3.8328
+No improvement for 9 epoch(s).
+Dataset 8 | Epoch 35/100
+Training Accuracy: 0.5669
+Validation Accuracy: 0.3855, Loss: 3.6854
+No improvement for 10 epoch(s).
+Dataset 8 | Epoch 36/100
+Training Accuracy: 0.4859
+Validation Accuracy: 0.3891, Loss: 3.7913
+No improvement for 11 epoch(s).
+Dataset 8 | Epoch 37/100
+Training Accuracy: 0.6069
+Validation Accuracy: 0.3600, Loss: 3.8295
+No improvement for 12 epoch(s).
+Dataset 8 | Epoch 38/100
+Training Accuracy: 0.5159
+Validation Accuracy: 0.3927, Loss: 3.7140
+No improvement for 13 epoch(s).
+Dataset 8 | Epoch 39/100
+Training Accuracy: 0.5660
+Validation Accuracy: 0.3782, Loss: 3.7341
+No improvement for 14 epoch(s).
+Dataset 8 | Epoch 40/100
+Training Accuracy: 0.6579
+Validation Accuracy: 0.3818, Loss: 3.7738
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 8.
+
