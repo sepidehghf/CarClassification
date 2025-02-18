@@ -1,4 +1,4 @@
-# Car Classification using CNNs
+# Car Classification -CompCars-
 
 ## Overview
 This project focuses on **image classification on the CompCars dataset**. The goal is to classify cars based on their make, model, and specific features using deep learning techniques.
