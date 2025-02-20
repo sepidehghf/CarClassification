@@ -1,5 +1,3 @@
-# README for Car Classification Repository
-
 ## Car Classification and Verification using Deep Learning
 
 This repository contains the implementation of a deep learning-based pipeline for **fine-grained car classification** and **verification** using **ResNet-50**, **Inception v3**, and **Siamese Networks**. The models are trained and evaluated on the **CompCars dataset**, leveraging **ensemble learning, transfer learning, and contrastive learning** to improve classification and verification accuracy. 
