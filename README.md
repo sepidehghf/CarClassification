@@ -28,12 +28,12 @@ The project is trained and tested on the **CompCars dataset**, which includes **
 ## 🖼️ Part-Based Classification Example
 This image shows how different car parts contribute to the prediction of the final model classification decision.
 
-![Part Classification](MODEL_ARCHITECTURES/Majority_Voting.001.jpeg)
+![Part Classification](MODEL_ARCHITECTURES/Majority_Voting.jpeg)
 
 ## 🖼️ Siamese Network for Verification
 This image illustrates how the Siamese Network verifies if two car images belong to the same model.
 
-![Car Verification](MODEL_ARCHITECTURES/Contrastive_Learning.001.jpeg)
+![Car Verification](MODEL_ARCHITECTURES/Contrastive_Learning.jpeg)
 
 
 ---
