@@ -33,7 +33,9 @@ This image shows how different car parts contribute to the prediction of the fin
 ## Siamese Network for Verification
 This image illustrates how the Siamese Network verifies if two car images belong to the same model.
 
-![Car Verification](MODEL_ARCHITECTURES/Contrastive_Learning.jpeg)
+
+<img src="MODEL_ARCHITECTURES/Contrastive_Learning.jpeg" alt="Car Verification" width="600">
+
 
 
 ---
