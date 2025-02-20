@@ -15,7 +15,7 @@ This repository contains the implementation of a deep learning-based pipeline fo
 
 
 
-## 🔍 Dataset
+##  Dataset
 
 The project is trained and tested on the **CompCars dataset**, which includes **web-nature** (online images) and **surveillance-nature** (real-world camera) images.
 
@@ -25,12 +25,12 @@ The project is trained and tested on the **CompCars dataset**, which includes **
 
 ---
 
-## 🖼️ Part-Based Classification Example
+## Part-Based Classification Example
 This image shows how different car parts contribute to the prediction of the final model classification decision.
 
 ![Part Classification](MODEL_ARCHITECTURES/Majority_Voting.jpeg)
 
-## 🖼️ Siamese Network for Verification
+## Siamese Network for Verification
 This image illustrates how the Siamese Network verifies if two car images belong to the same model.
 
 ![Car Verification](MODEL_ARCHITECTURES/Contrastive_Learning.jpeg)
@@ -40,13 +40,13 @@ This image illustrates how the Siamese Network verifies if two car images belong
 
 ## 📊 Results
 
-### 🎯 **Make & Model Classification Accuracy**
+###  **Make & Model Classification Accuracy**
 | Model        | Make Classification (%) | Model Classification (%) |
 |-------------|------------------------|-------------------------|
 | ResNet-50   | 92.78%                  | 90.15%                  |
 | Inception v3| 93.35%                  | 89.48%                  |
 
-### 🎯 **Part-Based Classification Accuracy (Top-1 Accuracy)**
+###  **Part-Based Classification Accuracy (Top-1 Accuracy)**
 | Car Part  | ResNet-50 (%) | Inception v3 (%) |
 |-----------|--------------|------------------|
 | Headlight | 53.28%       | 43.33%           |
@@ -57,7 +57,7 @@ This image illustrates how the Siamese Network verifies if two car images belong
 | Dashboard | 52.86%       | 27.95%           |
 | **Voting** | **81.51%**  | **72.53%**       |
 
-### 🎯 **Car Model Verification Accuracy**
+###  **Car Model Verification Accuracy**
 | Model               | Easy (%) | Medium (%) | Hard (%) |
 |--------------------|---------|------------|---------|
 | Siamese Network (Ours) | 88.64%  | 87.72%     | 82.61%  |
@@ -66,7 +66,7 @@ This image illustrates how the Siamese Network verifies if two car images belong
 
 ---
 
-## 💡 Key Contributions
+##  Key Contributions
 
 ✅ **Fine-Tuned CNN Models:** Improved **classification accuracy** by using **transfer learning** on **ResNet-50** and **Inception v3**.  
 ✅ **Part-Based Classification with Majority Voting:** Reduced misclassification errors by combining individual part predictions.  
@@ -75,7 +75,7 @@ This image illustrates how the Siamese Network verifies if two car images belong
 
 ---
 
-## 🔬 Future Work
+##  Future Work
 
 - Implement **attention-based models** to improve feature extraction.
 - Train models on **larger, more diverse datasets**.
