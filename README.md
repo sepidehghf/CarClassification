@@ -86,8 +86,8 @@ This image illustrates how the Siamese Network verifies if two car images belong
 ## 👨‍💻 Authors
 
 - **Ehsan Eslami Shafigh**
-- **Sepideh Ghaemifar**
 - **Abbas Zal**
+- **Sepideh Ghaemifar**
 
 
 
