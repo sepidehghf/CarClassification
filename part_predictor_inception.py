@@ -1,6 +1,6 @@
 import os
 import torch
-from torch.utils.data import Dataset, DataLoader, random_split
+from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, models
 from PIL import Image
 from torch import nn, optim
@@ -10,7 +10,7 @@ import multiprocessing
 import sys
 
 # Ensure script runs in the background without interruption
-sys.stdout = open('training_output.log', 'w')
+sys.stdout = open('training_output_inception.log', 'w')
 sys.stderr = sys.stdout
 
 # Define the dataset class
@@ -51,7 +51,7 @@ root_dir = "/data/NNDL/data/part/"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 num_workers = min(multiprocessing.cpu_count(), 16)
 
-# Data transformations (updated to 299x299 for Inception v3)
+# Data transformations for Inception v3 (input size 299x299)
 train_transform = transforms.Compose([
     transforms.Resize((299, 299)),
     transforms.RandomHorizontalFlip(),
@@ -101,30 +101,28 @@ for i in range(1, 9):
     training_history_path = f"part_{i}_predictor_inception_training.json"
 
     # Create datasets
-    train_val_dataset = CarDataset(train_file_path, root_dir, transform=train_transform)
+    train_dataset = CarDataset(train_file_path, root_dir, transform=train_transform)
     test_dataset = CarDataset(test_file_path, root_dir, transform=val_test_transform)
     
     # Map original labels to consistent indices
-    train_val_dataset.labels = [label_to_idx[label] for label in train_val_dataset.labels]
+    train_dataset.labels = [label_to_idx[label] for label in train_dataset.labels]
     test_dataset.labels = [label_to_idx[label] for label in test_dataset.labels]
     num_classes = len(label_to_idx)
 
-    # Split train/validation set
-    train_size = int(0.8 * len(train_val_dataset))
-    val_size = len(train_val_dataset) - train_size
-    train_dataset, val_dataset = random_split(train_val_dataset, [train_size, val_size])
-
     # Data loaders
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=num_workers)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=num_workers)
 
     # Load pre-trained Inception v3 and modify the final layers
-    model = models.inception_v3(weights=models.Inception_V3_Weights.IMAGENET1K_V1, aux_logits=True)
+    model = models.inception_v3(weights=models.Inception_V3_Weights.DEFAULT, aux_logits=True)
+    # Modify the main classifier
     num_ftrs = model.fc.in_features
     model.fc = nn.Linear(num_ftrs, num_classes)
+    # Modify the auxiliary classifier
     if model.AuxLogits is not None:
         num_ftrs_aux = model.AuxLogits.fc.in_features
         model.AuxLogits.fc = nn.Linear(num_ftrs_aux, num_classes)
+    
     model = model.to(device)
 
     # Define loss function, optimizer, and learning rate scheduler
@@ -133,10 +131,10 @@ for i in range(1, 9):
     scheduler = ReduceLROnPlateau(optimizer, mode='max', factor=0.1, patience=5, verbose=True)
 
     # Initialize training tracking variables
-    best_val_accuracy = 0.0
+    best_test_accuracy = 0.0
     early_stopping_counter = 0
     train_accuracies = []
-    val_accuracies = []
+    test_accuracies = []
 
     # Training loop for current dataset part
     for epoch in range(num_epochs):
@@ -148,15 +146,22 @@ for i in range(1, 9):
         total_samples = 0
         for images, labels in train_loader:
             images, labels = images.to(device), labels.to(device)
+
             optimizer.zero_grad()
             # In training mode, Inception v3 returns (output, aux_output)
-            outputs, aux_outputs = model(images)
-            loss1 = criterion(outputs, labels)
-            loss2 = criterion(aux_outputs, labels)
-            loss = loss1 + 0.4 * loss2
+            if isinstance(model, models.Inception3) and model.training:
+                outputs, aux_outputs = model(images)
+                loss1 = criterion(outputs, labels)
+                loss2 = criterion(aux_outputs, labels)
+                loss = loss1 + 0.4 * loss2
+            else:
+                outputs = model(images)
+                loss = criterion(outputs, labels)
+
             loss.backward()
             optimizer.step()
 
+            # Use only the main output for accuracy calculation
             _, preds = torch.max(outputs, 1)
             running_corrects += (preds == labels).sum().item()
             total_samples += labels.size(0)
@@ -164,30 +169,30 @@ for i in range(1, 9):
         train_accuracies.append(train_accuracy)
         print(f"Training Accuracy: {train_accuracy:.4f}")
 
-        # --- Validation Phase ---
+        # --- Test Phase ---
         model.eval()
         running_corrects = 0
         total_samples = 0
         with torch.no_grad():
-            for images, labels in val_loader:
+            for images, labels in test_loader:
                 images, labels = images.to(device), labels.to(device)
-                # In eval mode, Inception v3 returns only the main output
                 outputs = model(images)
+                # In eval mode, only the main output is returned
                 _, preds = torch.max(outputs, 1)
                 running_corrects += (preds == labels).sum().item()
                 total_samples += labels.size(0)
-        val_accuracy = running_corrects / total_samples
-        val_accuracies.append(val_accuracy)
-        print(f"Validation Accuracy: {val_accuracy:.4f}")
+        test_accuracy = running_corrects / total_samples
+        test_accuracies.append(test_accuracy)
+        print(f"Test Accuracy: {test_accuracy:.4f}")
 
-        # Adjust learning rate based on validation accuracy
-        scheduler.step(val_accuracy)
+        # Adjust learning rate based on test accuracy
+        scheduler.step(test_accuracy)
 
-        # Save best model checkpoint
-        if val_accuracy > best_val_accuracy:
-            best_val_accuracy = val_accuracy
+        # Save best model checkpoint based on test accuracy
+        if test_accuracy > best_test_accuracy:
+            best_test_accuracy = test_accuracy
             torch.save(model.state_dict(), model_save_path)
-            print(f"New best model saved with validation accuracy: {best_val_accuracy:.4f}")
+            print(f"New best model saved with test accuracy: {best_test_accuracy:.4f}")
             early_stopping_counter = 0
         else:
             early_stopping_counter += 1
@@ -201,8 +206,8 @@ for i in range(1, 9):
     # Save training history for this dataset part
     training_history = {
         'train_accuracies': train_accuracies,
-        'val_accuracies': val_accuracies,
-        'best_val_accuracy': best_val_accuracy
+        'test_accuracies': test_accuracies,
+        'best_test_accuracy': best_test_accuracy
     }
     with open(training_history_path, "w") as f:
         json.dump(training_history, f)

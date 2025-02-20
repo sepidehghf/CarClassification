@@ -1,0 +1,2704 @@
+Starting training for dataset part 1...
+/data/anaconda3/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Dataset 1 | Epoch 1/100
+Training Accuracy: 0.0054
+Test Accuracy: 0.0120
+New best model saved with test accuracy: 0.0120
+Dataset 1 | Epoch 2/100
+Training Accuracy: 0.0122
+Test Accuracy: 0.0144
+New best model saved with test accuracy: 0.0144
+Dataset 1 | Epoch 3/100
+Training Accuracy: 0.0150
+Test Accuracy: 0.0185
+New best model saved with test accuracy: 0.0185
+Dataset 1 | Epoch 4/100
+Training Accuracy: 0.0116
+Test Accuracy: 0.0185
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 5/100
+Training Accuracy: 0.0177
+Test Accuracy: 0.0201
+New best model saved with test accuracy: 0.0201
+Dataset 1 | Epoch 6/100
+Training Accuracy: 0.0286
+Test Accuracy: 0.0441
+New best model saved with test accuracy: 0.0441
+Dataset 1 | Epoch 7/100
+Training Accuracy: 0.0395
+Test Accuracy: 0.0682
+New best model saved with test accuracy: 0.0682
+Dataset 1 | Epoch 8/100
+Training Accuracy: 0.0633
+Test Accuracy: 0.0915
+New best model saved with test accuracy: 0.0915
+Dataset 1 | Epoch 9/100
+Training Accuracy: 0.0973
+Test Accuracy: 0.1172
+New best model saved with test accuracy: 0.1172
+Dataset 1 | Epoch 10/100
+Training Accuracy: 0.1490
+Test Accuracy: 0.1766
+New best model saved with test accuracy: 0.1766
+Dataset 1 | Epoch 11/100
+Training Accuracy: 0.2075
+Test Accuracy: 0.2135
+New best model saved with test accuracy: 0.2135
+Dataset 1 | Epoch 12/100
+Training Accuracy: 0.2871
+Test Accuracy: 0.2785
+New best model saved with test accuracy: 0.2785
+Dataset 1 | Epoch 13/100
+Training Accuracy: 0.3592
+Test Accuracy: 0.2994
+New best model saved with test accuracy: 0.2994
+Dataset 1 | Epoch 14/100
+Training Accuracy: 0.4265
+Test Accuracy: 0.3604
+New best model saved with test accuracy: 0.3604
+Dataset 1 | Epoch 15/100
+Training Accuracy: 0.5048
+Test Accuracy: 0.3852
+New best model saved with test accuracy: 0.3852
+Dataset 1 | Epoch 16/100
+Training Accuracy: 0.5782
+Test Accuracy: 0.4719
+New best model saved with test accuracy: 0.4719
+Dataset 1 | Epoch 17/100
+Training Accuracy: 0.6605
+Test Accuracy: 0.4671
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 18/100
+Training Accuracy: 0.6721
+Test Accuracy: 0.5040
+New best model saved with test accuracy: 0.5040
+Dataset 1 | Epoch 19/100
+Training Accuracy: 0.7605
+Test Accuracy: 0.5433
+New best model saved with test accuracy: 0.5433
+Dataset 1 | Epoch 20/100
+Training Accuracy: 0.7755
+Test Accuracy: 0.5457
+New best model saved with test accuracy: 0.5457
+Dataset 1 | Epoch 21/100
+Training Accuracy: 0.8306
+Test Accuracy: 0.5345
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 22/100
+Training Accuracy: 0.8442
+Test Accuracy: 0.5554
+New best model saved with test accuracy: 0.5554
+Dataset 1 | Epoch 23/100
+Training Accuracy: 0.8721
+Test Accuracy: 0.5971
+New best model saved with test accuracy: 0.5971
+Dataset 1 | Epoch 24/100
+Training Accuracy: 0.8728
+Test Accuracy: 0.5803
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 25/100
+Training Accuracy: 0.8993
+Test Accuracy: 0.6083
+New best model saved with test accuracy: 0.6083
+Dataset 1 | Epoch 26/100
+Training Accuracy: 0.9075
+Test Accuracy: 0.6003
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 27/100
+Training Accuracy: 0.9231
+Test Accuracy: 0.6212
+New best model saved with test accuracy: 0.6212
+Dataset 1 | Epoch 28/100
+Training Accuracy: 0.9361
+Test Accuracy: 0.6035
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 29/100
+Training Accuracy: 0.9286
+Test Accuracy: 0.5971
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 30/100
+Training Accuracy: 0.9279
+Test Accuracy: 0.6212
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 31/100
+Training Accuracy: 0.9463
+Test Accuracy: 0.5915
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 32/100
+Training Accuracy: 0.9503
+Test Accuracy: 0.5578
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 33/100
+Training Accuracy: 0.9531
+Test Accuracy: 0.6332
+New best model saved with test accuracy: 0.6332
+Dataset 1 | Epoch 34/100
+Training Accuracy: 0.9633
+Test Accuracy: 0.6308
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 35/100
+Training Accuracy: 0.9571
+Test Accuracy: 0.6493
+New best model saved with test accuracy: 0.6493
+Dataset 1 | Epoch 36/100
+Training Accuracy: 0.9660
+Test Accuracy: 0.6220
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 37/100
+Training Accuracy: 0.9714
+Test Accuracy: 0.6493
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 38/100
+Training Accuracy: 0.9667
+Test Accuracy: 0.5795
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 39/100
+Training Accuracy: 0.9599
+Test Accuracy: 0.6356
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 40/100
+Training Accuracy: 0.9599
+Test Accuracy: 0.6164
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 41/100
+Training Accuracy: 0.9782
+Test Accuracy: 0.6196
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 42/100
+Training Accuracy: 0.9755
+Test Accuracy: 0.6774
+New best model saved with test accuracy: 0.6774
+Dataset 1 | Epoch 43/100
+Training Accuracy: 0.9912
+Test Accuracy: 0.6758
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 44/100
+Training Accuracy: 0.9918
+Test Accuracy: 0.6854
+New best model saved with test accuracy: 0.6854
+Dataset 1 | Epoch 45/100
+Training Accuracy: 0.9918
+Test Accuracy: 0.6902
+New best model saved with test accuracy: 0.6902
+Dataset 1 | Epoch 46/100
+Training Accuracy: 0.9932
+Test Accuracy: 0.6910
+New best model saved with test accuracy: 0.6910
+Dataset 1 | Epoch 47/100
+Training Accuracy: 0.9939
+Test Accuracy: 0.6918
+New best model saved with test accuracy: 0.6918
+Dataset 1 | Epoch 48/100
+Training Accuracy: 0.9932
+Test Accuracy: 0.6878
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 49/100
+Training Accuracy: 0.9959
+Test Accuracy: 0.6910
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 50/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.6926
+New best model saved with test accuracy: 0.6926
+Dataset 1 | Epoch 51/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.6830
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 52/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.6886
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 53/100
+Training Accuracy: 0.9966
+Test Accuracy: 0.6966
+New best model saved with test accuracy: 0.6966
+Dataset 1 | Epoch 54/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.6862
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 55/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.6958
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 56/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.6958
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 57/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.6958
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 58/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.6950
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 59/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.6990
+New best model saved with test accuracy: 0.6990
+Dataset 1 | Epoch 60/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.6958
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 61/100
+Training Accuracy: 0.9973
+Test Accuracy: 0.6934
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 62/100
+Training Accuracy: 0.9966
+Test Accuracy: 0.7006
+New best model saved with test accuracy: 0.7006
+Dataset 1 | Epoch 63/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.7030
+New best model saved with test accuracy: 0.7030
+Dataset 1 | Epoch 64/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.7047
+New best model saved with test accuracy: 0.7047
+Dataset 1 | Epoch 65/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7039
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 66/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7071
+New best model saved with test accuracy: 0.7071
+Dataset 1 | Epoch 67/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7071
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 68/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7103
+New best model saved with test accuracy: 0.7103
+Dataset 1 | Epoch 69/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7006
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 70/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7039
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 71/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7039
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 72/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.7022
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 73/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7047
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 74/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7022
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 75/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7071
+No improvement for 7 epoch(s).
+Dataset 1 | Epoch 76/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7055
+No improvement for 8 epoch(s).
+Dataset 1 | Epoch 77/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7055
+No improvement for 9 epoch(s).
+Dataset 1 | Epoch 78/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7047
+No improvement for 10 epoch(s).
+Dataset 1 | Epoch 79/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7030
+No improvement for 11 epoch(s).
+Dataset 1 | Epoch 80/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7014
+No improvement for 12 epoch(s).
+Dataset 1 | Epoch 81/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7030
+No improvement for 13 epoch(s).
+Dataset 1 | Epoch 82/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7006
+No improvement for 14 epoch(s).
+Dataset 1 | Epoch 83/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7111
+New best model saved with test accuracy: 0.7111
+Dataset 1 | Epoch 84/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7087
+No improvement for 1 epoch(s).
+Dataset 1 | Epoch 85/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7030
+No improvement for 2 epoch(s).
+Dataset 1 | Epoch 86/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.7047
+No improvement for 3 epoch(s).
+Dataset 1 | Epoch 87/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7047
+No improvement for 4 epoch(s).
+Dataset 1 | Epoch 88/100
+Training Accuracy: 0.9973
+Test Accuracy: 0.7022
+No improvement for 5 epoch(s).
+Dataset 1 | Epoch 89/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7079
+No improvement for 6 epoch(s).
+Dataset 1 | Epoch 90/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7039
+No improvement for 7 epoch(s).
+Dataset 1 | Epoch 91/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.6998
+No improvement for 8 epoch(s).
+Dataset 1 | Epoch 92/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7022
+No improvement for 9 epoch(s).
+Dataset 1 | Epoch 93/100
+Training Accuracy: 0.9980
+Test Accuracy: 0.7039
+No improvement for 10 epoch(s).
+Dataset 1 | Epoch 94/100
+Training Accuracy: 0.9966
+Test Accuracy: 0.7047
+No improvement for 11 epoch(s).
+Dataset 1 | Epoch 95/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.7022
+No improvement for 12 epoch(s).
+Dataset 1 | Epoch 96/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7022
+No improvement for 13 epoch(s).
+Dataset 1 | Epoch 97/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.7006
+No improvement for 14 epoch(s).
+Dataset 1 | Epoch 98/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7071
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 1.
+
+Starting training for dataset part 2...
+Dataset 2 | Epoch 1/100
+Training Accuracy: 0.0035
+Test Accuracy: 0.0050
+New best model saved with test accuracy: 0.0050
+Dataset 2 | Epoch 2/100
+Training Accuracy: 0.0063
+Test Accuracy: 0.0084
+New best model saved with test accuracy: 0.0084
+Dataset 2 | Epoch 3/100
+Training Accuracy: 0.0070
+Test Accuracy: 0.0160
+New best model saved with test accuracy: 0.0160
+Dataset 2 | Epoch 4/100
+Training Accuracy: 0.0127
+Test Accuracy: 0.0176
+New best model saved with test accuracy: 0.0176
+Dataset 2 | Epoch 5/100
+Training Accuracy: 0.0183
+Test Accuracy: 0.0327
+New best model saved with test accuracy: 0.0327
+Dataset 2 | Epoch 6/100
+Training Accuracy: 0.0303
+Test Accuracy: 0.0697
+New best model saved with test accuracy: 0.0697
+Dataset 2 | Epoch 7/100
+Training Accuracy: 0.0486
+Test Accuracy: 0.0932
+New best model saved with test accuracy: 0.0932
+Dataset 2 | Epoch 8/100
+Training Accuracy: 0.1071
+Test Accuracy: 0.1436
+New best model saved with test accuracy: 0.1436
+Dataset 2 | Epoch 9/100
+Training Accuracy: 0.1635
+Test Accuracy: 0.2250
+New best model saved with test accuracy: 0.2250
+Dataset 2 | Epoch 10/100
+Training Accuracy: 0.2452
+Test Accuracy: 0.3317
+New best model saved with test accuracy: 0.3317
+Dataset 2 | Epoch 11/100
+Training Accuracy: 0.3235
+Test Accuracy: 0.2947
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 12/100
+Training Accuracy: 0.3883
+Test Accuracy: 0.4551
+New best model saved with test accuracy: 0.4551
+Dataset 2 | Epoch 13/100
+Training Accuracy: 0.4926
+Test Accuracy: 0.3887
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 14/100
+Training Accuracy: 0.5722
+Test Accuracy: 0.5835
+New best model saved with test accuracy: 0.5835
+Dataset 2 | Epoch 15/100
+Training Accuracy: 0.6469
+Test Accuracy: 0.5634
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 16/100
+Training Accuracy: 0.6899
+Test Accuracy: 0.6188
+New best model saved with test accuracy: 0.6188
+Dataset 2 | Epoch 17/100
+Training Accuracy: 0.7414
+Test Accuracy: 0.6482
+New best model saved with test accuracy: 0.6482
+Dataset 2 | Epoch 18/100
+Training Accuracy: 0.8083
+Test Accuracy: 0.6415
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 19/100
+Training Accuracy: 0.8217
+Test Accuracy: 0.6574
+New best model saved with test accuracy: 0.6574
+Dataset 2 | Epoch 20/100
+Training Accuracy: 0.8471
+Test Accuracy: 0.6751
+New best model saved with test accuracy: 0.6751
+Dataset 2 | Epoch 21/100
+Training Accuracy: 0.8802
+Test Accuracy: 0.6919
+New best model saved with test accuracy: 0.6919
+Dataset 2 | Epoch 22/100
+Training Accuracy: 0.8830
+Test Accuracy: 0.6608
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 23/100
+Training Accuracy: 0.8936
+Test Accuracy: 0.7095
+New best model saved with test accuracy: 0.7095
+Dataset 2 | Epoch 24/100
+Training Accuracy: 0.8950
+Test Accuracy: 0.7212
+New best model saved with test accuracy: 0.7212
+Dataset 2 | Epoch 25/100
+Training Accuracy: 0.9232
+Test Accuracy: 0.6423
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 26/100
+Training Accuracy: 0.9190
+Test Accuracy: 0.7229
+New best model saved with test accuracy: 0.7229
+Dataset 2 | Epoch 27/100
+Training Accuracy: 0.9373
+Test Accuracy: 0.7254
+New best model saved with test accuracy: 0.7254
+Dataset 2 | Epoch 28/100
+Training Accuracy: 0.9563
+Test Accuracy: 0.7422
+New best model saved with test accuracy: 0.7422
+Dataset 2 | Epoch 29/100
+Training Accuracy: 0.9584
+Test Accuracy: 0.7431
+New best model saved with test accuracy: 0.7431
+Dataset 2 | Epoch 30/100
+Training Accuracy: 0.9655
+Test Accuracy: 0.7397
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 31/100
+Training Accuracy: 0.9570
+Test Accuracy: 0.7288
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 32/100
+Training Accuracy: 0.9634
+Test Accuracy: 0.7699
+New best model saved with test accuracy: 0.7699
+Dataset 2 | Epoch 33/100
+Training Accuracy: 0.9514
+Test Accuracy: 0.7296
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 34/100
+Training Accuracy: 0.9683
+Test Accuracy: 0.7439
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 35/100
+Training Accuracy: 0.9486
+Test Accuracy: 0.7128
+No improvement for 3 epoch(s).
+Dataset 2 | Epoch 36/100
+Training Accuracy: 0.9598
+Test Accuracy: 0.7313
+No improvement for 4 epoch(s).
+Dataset 2 | Epoch 37/100
+Training Accuracy: 0.9570
+Test Accuracy: 0.7473
+No improvement for 5 epoch(s).
+Dataset 2 | Epoch 38/100
+Training Accuracy: 0.9584
+Test Accuracy: 0.7028
+No improvement for 6 epoch(s).
+Dataset 2 | Epoch 39/100
+Training Accuracy: 0.9753
+Test Accuracy: 0.7523
+No improvement for 7 epoch(s).
+Dataset 2 | Epoch 40/100
+Training Accuracy: 0.9908
+Test Accuracy: 0.7666
+No improvement for 8 epoch(s).
+Dataset 2 | Epoch 41/100
+Training Accuracy: 0.9873
+Test Accuracy: 0.7725
+New best model saved with test accuracy: 0.7725
+Dataset 2 | Epoch 42/100
+Training Accuracy: 0.9915
+Test Accuracy: 0.7783
+New best model saved with test accuracy: 0.7783
+Dataset 2 | Epoch 43/100
+Training Accuracy: 0.9958
+Test Accuracy: 0.7867
+New best model saved with test accuracy: 0.7867
+Dataset 2 | Epoch 44/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.7851
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 45/100
+Training Accuracy: 0.9937
+Test Accuracy: 0.7876
+New best model saved with test accuracy: 0.7876
+Dataset 2 | Epoch 46/100
+Training Accuracy: 0.9944
+Test Accuracy: 0.7909
+New best model saved with test accuracy: 0.7909
+Dataset 2 | Epoch 47/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.7935
+New best model saved with test accuracy: 0.7935
+Dataset 2 | Epoch 48/100
+Training Accuracy: 0.9944
+Test Accuracy: 0.8002
+New best model saved with test accuracy: 0.8002
+Dataset 2 | Epoch 49/100
+Training Accuracy: 0.9951
+Test Accuracy: 0.7935
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 50/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.7993
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 51/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.8002
+No improvement for 3 epoch(s).
+Dataset 2 | Epoch 52/100
+Training Accuracy: 0.9958
+Test Accuracy: 0.8044
+New best model saved with test accuracy: 0.8044
+Dataset 2 | Epoch 53/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.8111
+New best model saved with test accuracy: 0.8111
+Dataset 2 | Epoch 54/100
+Training Accuracy: 0.9951
+Test Accuracy: 0.8119
+New best model saved with test accuracy: 0.8119
+Dataset 2 | Epoch 55/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.8144
+New best model saved with test accuracy: 0.8144
+Dataset 2 | Epoch 56/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.8027
+No improvement for 1 epoch(s).
+Dataset 2 | Epoch 57/100
+Training Accuracy: 0.9972
+Test Accuracy: 0.8035
+No improvement for 2 epoch(s).
+Dataset 2 | Epoch 58/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.8094
+No improvement for 3 epoch(s).
+Dataset 2 | Epoch 59/100
+Training Accuracy: 0.9958
+Test Accuracy: 0.8044
+No improvement for 4 epoch(s).
+Dataset 2 | Epoch 60/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8069
+No improvement for 5 epoch(s).
+Dataset 2 | Epoch 61/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.8094
+No improvement for 6 epoch(s).
+Dataset 2 | Epoch 62/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.8060
+No improvement for 7 epoch(s).
+Dataset 2 | Epoch 63/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8077
+No improvement for 8 epoch(s).
+Dataset 2 | Epoch 64/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8094
+No improvement for 9 epoch(s).
+Dataset 2 | Epoch 65/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8136
+No improvement for 10 epoch(s).
+Dataset 2 | Epoch 66/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.8086
+No improvement for 11 epoch(s).
+Dataset 2 | Epoch 67/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.8119
+No improvement for 12 epoch(s).
+Dataset 2 | Epoch 68/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8102
+No improvement for 13 epoch(s).
+Dataset 2 | Epoch 69/100
+Training Accuracy: 0.9965
+Test Accuracy: 0.8102
+No improvement for 14 epoch(s).
+Dataset 2 | Epoch 70/100
+Training Accuracy: 0.9979
+Test Accuracy: 0.8094
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 2.
+
+Starting training for dataset part 3...
+Dataset 3 | Epoch 1/100
+Training Accuracy: 0.0015
+Test Accuracy: 0.0091
+New best model saved with test accuracy: 0.0091
+Dataset 3 | Epoch 2/100
+Training Accuracy: 0.0046
+Test Accuracy: 0.0045
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 3/100
+Training Accuracy: 0.0061
+Test Accuracy: 0.0027
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 4/100
+Training Accuracy: 0.0069
+Test Accuracy: 0.0109
+New best model saved with test accuracy: 0.0109
+Dataset 3 | Epoch 5/100
+Training Accuracy: 0.0054
+Test Accuracy: 0.0082
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 6/100
+Training Accuracy: 0.0061
+Test Accuracy: 0.0145
+New best model saved with test accuracy: 0.0145
+Dataset 3 | Epoch 7/100
+Training Accuracy: 0.0107
+Test Accuracy: 0.0073
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 8/100
+Training Accuracy: 0.0122
+Test Accuracy: 0.0073
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 9/100
+Training Accuracy: 0.0130
+Test Accuracy: 0.0173
+New best model saved with test accuracy: 0.0173
+Dataset 3 | Epoch 10/100
+Training Accuracy: 0.0161
+Test Accuracy: 0.0300
+New best model saved with test accuracy: 0.0300
+Dataset 3 | Epoch 11/100
+Training Accuracy: 0.0176
+Test Accuracy: 0.0173
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 12/100
+Training Accuracy: 0.0199
+Test Accuracy: 0.0273
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 13/100
+Training Accuracy: 0.0237
+Test Accuracy: 0.0391
+New best model saved with test accuracy: 0.0391
+Dataset 3 | Epoch 14/100
+Training Accuracy: 0.0321
+Test Accuracy: 0.0345
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 15/100
+Training Accuracy: 0.0260
+Test Accuracy: 0.0209
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 16/100
+Training Accuracy: 0.0359
+Test Accuracy: 0.0455
+New best model saved with test accuracy: 0.0455
+Dataset 3 | Epoch 17/100
+Training Accuracy: 0.0505
+Test Accuracy: 0.0564
+New best model saved with test accuracy: 0.0564
+Dataset 3 | Epoch 18/100
+Training Accuracy: 0.0489
+Test Accuracy: 0.0391
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 19/100
+Training Accuracy: 0.0635
+Test Accuracy: 0.0573
+New best model saved with test accuracy: 0.0573
+Dataset 3 | Epoch 20/100
+Training Accuracy: 0.0826
+Test Accuracy: 0.0582
+New best model saved with test accuracy: 0.0582
+Dataset 3 | Epoch 21/100
+Training Accuracy: 0.0910
+Test Accuracy: 0.0482
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 22/100
+Training Accuracy: 0.1017
+Test Accuracy: 0.0718
+New best model saved with test accuracy: 0.0718
+Dataset 3 | Epoch 23/100
+Training Accuracy: 0.1338
+Test Accuracy: 0.1055
+New best model saved with test accuracy: 0.1055
+Dataset 3 | Epoch 24/100
+Training Accuracy: 0.1445
+Test Accuracy: 0.1264
+New best model saved with test accuracy: 0.1264
+Dataset 3 | Epoch 25/100
+Training Accuracy: 0.1697
+Test Accuracy: 0.1209
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 26/100
+Training Accuracy: 0.2255
+Test Accuracy: 0.1327
+New best model saved with test accuracy: 0.1327
+Dataset 3 | Epoch 27/100
+Training Accuracy: 0.2622
+Test Accuracy: 0.1582
+New best model saved with test accuracy: 0.1582
+Dataset 3 | Epoch 28/100
+Training Accuracy: 0.2775
+Test Accuracy: 0.1791
+New best model saved with test accuracy: 0.1791
+Dataset 3 | Epoch 29/100
+Training Accuracy: 0.3150
+Test Accuracy: 0.1755
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 30/100
+Training Accuracy: 0.3433
+Test Accuracy: 0.1700
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 31/100
+Training Accuracy: 0.4021
+Test Accuracy: 0.1955
+New best model saved with test accuracy: 0.1955
+Dataset 3 | Epoch 32/100
+Training Accuracy: 0.4320
+Test Accuracy: 0.1918
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 33/100
+Training Accuracy: 0.4908
+Test Accuracy: 0.1909
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 34/100
+Training Accuracy: 0.5275
+Test Accuracy: 0.2245
+New best model saved with test accuracy: 0.2245
+Dataset 3 | Epoch 35/100
+Training Accuracy: 0.5948
+Test Accuracy: 0.1945
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 36/100
+Training Accuracy: 0.6063
+Test Accuracy: 0.2691
+New best model saved with test accuracy: 0.2691
+Dataset 3 | Epoch 37/100
+Training Accuracy: 0.6751
+Test Accuracy: 0.2836
+New best model saved with test accuracy: 0.2836
+Dataset 3 | Epoch 38/100
+Training Accuracy: 0.6697
+Test Accuracy: 0.2909
+New best model saved with test accuracy: 0.2909
+Dataset 3 | Epoch 39/100
+Training Accuracy: 0.7301
+Test Accuracy: 0.2645
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 40/100
+Training Accuracy: 0.7294
+Test Accuracy: 0.2527
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 41/100
+Training Accuracy: 0.7630
+Test Accuracy: 0.2964
+New best model saved with test accuracy: 0.2964
+Dataset 3 | Epoch 42/100
+Training Accuracy: 0.7890
+Test Accuracy: 0.2991
+New best model saved with test accuracy: 0.2991
+Dataset 3 | Epoch 43/100
+Training Accuracy: 0.8135
+Test Accuracy: 0.3191
+New best model saved with test accuracy: 0.3191
+Dataset 3 | Epoch 44/100
+Training Accuracy: 0.8180
+Test Accuracy: 0.3182
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 45/100
+Training Accuracy: 0.8272
+Test Accuracy: 0.3364
+New best model saved with test accuracy: 0.3364
+Dataset 3 | Epoch 46/100
+Training Accuracy: 0.8333
+Test Accuracy: 0.3191
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 47/100
+Training Accuracy: 0.8739
+Test Accuracy: 0.3418
+New best model saved with test accuracy: 0.3418
+Dataset 3 | Epoch 48/100
+Training Accuracy: 0.8930
+Test Accuracy: 0.3327
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 49/100
+Training Accuracy: 0.9060
+Test Accuracy: 0.3118
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 50/100
+Training Accuracy: 0.8899
+Test Accuracy: 0.3264
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 51/100
+Training Accuracy: 0.9113
+Test Accuracy: 0.3455
+New best model saved with test accuracy: 0.3455
+Dataset 3 | Epoch 52/100
+Training Accuracy: 0.9220
+Test Accuracy: 0.3518
+New best model saved with test accuracy: 0.3518
+Dataset 3 | Epoch 53/100
+Training Accuracy: 0.9182
+Test Accuracy: 0.3445
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 54/100
+Training Accuracy: 0.9144
+Test Accuracy: 0.3600
+New best model saved with test accuracy: 0.3600
+Dataset 3 | Epoch 55/100
+Training Accuracy: 0.9197
+Test Accuracy: 0.3455
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 56/100
+Training Accuracy: 0.9335
+Test Accuracy: 0.3555
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 57/100
+Training Accuracy: 0.9396
+Test Accuracy: 0.3573
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 58/100
+Training Accuracy: 0.9411
+Test Accuracy: 0.3273
+No improvement for 4 epoch(s).
+Dataset 3 | Epoch 59/100
+Training Accuracy: 0.9557
+Test Accuracy: 0.3700
+New best model saved with test accuracy: 0.3700
+Dataset 3 | Epoch 60/100
+Training Accuracy: 0.9457
+Test Accuracy: 0.3673
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 61/100
+Training Accuracy: 0.9434
+Test Accuracy: 0.3445
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 62/100
+Training Accuracy: 0.9457
+Test Accuracy: 0.3445
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 63/100
+Training Accuracy: 0.9450
+Test Accuracy: 0.3664
+No improvement for 4 epoch(s).
+Dataset 3 | Epoch 64/100
+Training Accuracy: 0.9289
+Test Accuracy: 0.3282
+No improvement for 5 epoch(s).
+Dataset 3 | Epoch 65/100
+Training Accuracy: 0.9480
+Test Accuracy: 0.3345
+No improvement for 6 epoch(s).
+Dataset 3 | Epoch 66/100
+Training Accuracy: 0.9748
+Test Accuracy: 0.3836
+New best model saved with test accuracy: 0.3836
+Dataset 3 | Epoch 67/100
+Training Accuracy: 0.9778
+Test Accuracy: 0.3873
+New best model saved with test accuracy: 0.3873
+Dataset 3 | Epoch 68/100
+Training Accuracy: 0.9839
+Test Accuracy: 0.3909
+New best model saved with test accuracy: 0.3909
+Dataset 3 | Epoch 69/100
+Training Accuracy: 0.9855
+Test Accuracy: 0.3982
+New best model saved with test accuracy: 0.3982
+Dataset 3 | Epoch 70/100
+Training Accuracy: 0.9885
+Test Accuracy: 0.3982
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 71/100
+Training Accuracy: 0.9939
+Test Accuracy: 0.3964
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 72/100
+Training Accuracy: 0.9901
+Test Accuracy: 0.3991
+New best model saved with test accuracy: 0.3991
+Dataset 3 | Epoch 73/100
+Training Accuracy: 0.9908
+Test Accuracy: 0.4000
+New best model saved with test accuracy: 0.4000
+Dataset 3 | Epoch 74/100
+Training Accuracy: 0.9924
+Test Accuracy: 0.3936
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 75/100
+Training Accuracy: 0.9916
+Test Accuracy: 0.3991
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 76/100
+Training Accuracy: 0.9893
+Test Accuracy: 0.4045
+New best model saved with test accuracy: 0.4045
+Dataset 3 | Epoch 77/100
+Training Accuracy: 0.9924
+Test Accuracy: 0.4091
+New best model saved with test accuracy: 0.4091
+Dataset 3 | Epoch 78/100
+Training Accuracy: 0.9878
+Test Accuracy: 0.4073
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 79/100
+Training Accuracy: 0.9931
+Test Accuracy: 0.4064
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 80/100
+Training Accuracy: 0.9969
+Test Accuracy: 0.4100
+New best model saved with test accuracy: 0.4100
+Dataset 3 | Epoch 81/100
+Training Accuracy: 0.9969
+Test Accuracy: 0.4155
+New best model saved with test accuracy: 0.4155
+Dataset 3 | Epoch 82/100
+Training Accuracy: 0.9931
+Test Accuracy: 0.4045
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 83/100
+Training Accuracy: 0.9954
+Test Accuracy: 0.4082
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 84/100
+Training Accuracy: 0.9924
+Test Accuracy: 0.4127
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 85/100
+Training Accuracy: 0.9954
+Test Accuracy: 0.4173
+New best model saved with test accuracy: 0.4173
+Dataset 3 | Epoch 86/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.4082
+No improvement for 1 epoch(s).
+Dataset 3 | Epoch 87/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.4145
+No improvement for 2 epoch(s).
+Dataset 3 | Epoch 88/100
+Training Accuracy: 0.9969
+Test Accuracy: 0.4136
+No improvement for 3 epoch(s).
+Dataset 3 | Epoch 89/100
+Training Accuracy: 0.9901
+Test Accuracy: 0.4145
+No improvement for 4 epoch(s).
+Dataset 3 | Epoch 90/100
+Training Accuracy: 0.9969
+Test Accuracy: 0.4145
+No improvement for 5 epoch(s).
+Dataset 3 | Epoch 91/100
+Training Accuracy: 0.9931
+Test Accuracy: 0.4136
+No improvement for 6 epoch(s).
+Dataset 3 | Epoch 92/100
+Training Accuracy: 0.9977
+Test Accuracy: 0.4100
+No improvement for 7 epoch(s).
+Dataset 3 | Epoch 93/100
+Training Accuracy: 0.9931
+Test Accuracy: 0.4082
+No improvement for 8 epoch(s).
+Dataset 3 | Epoch 94/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.4155
+No improvement for 9 epoch(s).
+Dataset 3 | Epoch 95/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.4164
+No improvement for 10 epoch(s).
+Dataset 3 | Epoch 96/100
+Training Accuracy: 0.9931
+Test Accuracy: 0.4136
+No improvement for 11 epoch(s).
+Dataset 3 | Epoch 97/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.4145
+No improvement for 12 epoch(s).
+Dataset 3 | Epoch 98/100
+Training Accuracy: 0.9946
+Test Accuracy: 0.4118
+No improvement for 13 epoch(s).
+Dataset 3 | Epoch 99/100
+Training Accuracy: 0.9977
+Test Accuracy: 0.4164
+No improvement for 14 epoch(s).
+Dataset 3 | Epoch 100/100
+Training Accuracy: 0.9969
+Test Accuracy: 0.4182
+New best model saved with test accuracy: 0.4182
+Training complete for Dataset part 3.
+
+Starting training for dataset part 4...
+Dataset 4 | Epoch 1/100
+Training Accuracy: 0.0044
+Test Accuracy: 0.0122
+New best model saved with test accuracy: 0.0122
+Dataset 4 | Epoch 2/100
+Training Accuracy: 0.0095
+Test Accuracy: 0.0096
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 3/100
+Training Accuracy: 0.0124
+Test Accuracy: 0.0244
+New best model saved with test accuracy: 0.0244
+Dataset 4 | Epoch 4/100
+Training Accuracy: 0.0146
+Test Accuracy: 0.0183
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 5/100
+Training Accuracy: 0.0204
+Test Accuracy: 0.0305
+New best model saved with test accuracy: 0.0305
+Dataset 4 | Epoch 6/100
+Training Accuracy: 0.0328
+Test Accuracy: 0.0393
+New best model saved with test accuracy: 0.0393
+Dataset 4 | Epoch 7/100
+Training Accuracy: 0.0393
+Test Accuracy: 0.0567
+New best model saved with test accuracy: 0.0567
+Dataset 4 | Epoch 8/100
+Training Accuracy: 0.0531
+Test Accuracy: 0.0637
+New best model saved with test accuracy: 0.0637
+Dataset 4 | Epoch 9/100
+Training Accuracy: 0.0757
+Test Accuracy: 0.0750
+New best model saved with test accuracy: 0.0750
+Dataset 4 | Epoch 10/100
+Training Accuracy: 0.0888
+Test Accuracy: 0.1265
+New best model saved with test accuracy: 0.1265
+Dataset 4 | Epoch 11/100
+Training Accuracy: 0.1259
+Test Accuracy: 0.1449
+New best model saved with test accuracy: 0.1449
+Dataset 4 | Epoch 12/100
+Training Accuracy: 0.1739
+Test Accuracy: 0.1693
+New best model saved with test accuracy: 0.1693
+Dataset 4 | Epoch 13/100
+Training Accuracy: 0.2358
+Test Accuracy: 0.1928
+New best model saved with test accuracy: 0.1928
+Dataset 4 | Epoch 14/100
+Training Accuracy: 0.2344
+Test Accuracy: 0.2077
+New best model saved with test accuracy: 0.2077
+Dataset 4 | Epoch 15/100
+Training Accuracy: 0.3151
+Test Accuracy: 0.2531
+New best model saved with test accuracy: 0.2531
+Dataset 4 | Epoch 16/100
+Training Accuracy: 0.3712
+Test Accuracy: 0.2792
+New best model saved with test accuracy: 0.2792
+Dataset 4 | Epoch 17/100
+Training Accuracy: 0.4309
+Test Accuracy: 0.3202
+New best model saved with test accuracy: 0.3202
+Dataset 4 | Epoch 18/100
+Training Accuracy: 0.4738
+Test Accuracy: 0.2984
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 19/100
+Training Accuracy: 0.5240
+Test Accuracy: 0.3002
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 20/100
+Training Accuracy: 0.5895
+Test Accuracy: 0.3901
+New best model saved with test accuracy: 0.3901
+Dataset 4 | Epoch 21/100
+Training Accuracy: 0.6426
+Test Accuracy: 0.4049
+New best model saved with test accuracy: 0.4049
+Dataset 4 | Epoch 22/100
+Training Accuracy: 0.6870
+Test Accuracy: 0.3787
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 23/100
+Training Accuracy: 0.7416
+Test Accuracy: 0.4599
+New best model saved with test accuracy: 0.4599
+Dataset 4 | Epoch 24/100
+Training Accuracy: 0.7773
+Test Accuracy: 0.4267
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 25/100
+Training Accuracy: 0.7984
+Test Accuracy: 0.4049
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 26/100
+Training Accuracy: 0.8180
+Test Accuracy: 0.3962
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 27/100
+Training Accuracy: 0.8362
+Test Accuracy: 0.4503
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 28/100
+Training Accuracy: 0.8646
+Test Accuracy: 0.4450
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 29/100
+Training Accuracy: 0.8930
+Test Accuracy: 0.4703
+New best model saved with test accuracy: 0.4703
+Dataset 4 | Epoch 30/100
+Training Accuracy: 0.8923
+Test Accuracy: 0.4808
+New best model saved with test accuracy: 0.4808
+Dataset 4 | Epoch 31/100
+Training Accuracy: 0.8886
+Test Accuracy: 0.4729
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 32/100
+Training Accuracy: 0.9236
+Test Accuracy: 0.4817
+New best model saved with test accuracy: 0.4817
+Dataset 4 | Epoch 33/100
+Training Accuracy: 0.9469
+Test Accuracy: 0.4843
+New best model saved with test accuracy: 0.4843
+Dataset 4 | Epoch 34/100
+Training Accuracy: 0.9323
+Test Accuracy: 0.4878
+New best model saved with test accuracy: 0.4878
+Dataset 4 | Epoch 35/100
+Training Accuracy: 0.9170
+Test Accuracy: 0.4450
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 36/100
+Training Accuracy: 0.9229
+Test Accuracy: 0.4764
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 37/100
+Training Accuracy: 0.9360
+Test Accuracy: 0.4642
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 38/100
+Training Accuracy: 0.9316
+Test Accuracy: 0.4695
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 39/100
+Training Accuracy: 0.9447
+Test Accuracy: 0.5044
+New best model saved with test accuracy: 0.5044
+Dataset 4 | Epoch 40/100
+Training Accuracy: 0.9672
+Test Accuracy: 0.4869
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 41/100
+Training Accuracy: 0.9665
+Test Accuracy: 0.4782
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 42/100
+Training Accuracy: 0.9629
+Test Accuracy: 0.4948
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 43/100
+Training Accuracy: 0.9680
+Test Accuracy: 0.5262
+New best model saved with test accuracy: 0.5262
+Dataset 4 | Epoch 44/100
+Training Accuracy: 0.9687
+Test Accuracy: 0.4756
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 45/100
+Training Accuracy: 0.9622
+Test Accuracy: 0.4354
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 46/100
+Training Accuracy: 0.9520
+Test Accuracy: 0.5026
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 47/100
+Training Accuracy: 0.9578
+Test Accuracy: 0.5070
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 48/100
+Training Accuracy: 0.9491
+Test Accuracy: 0.5201
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 49/100
+Training Accuracy: 0.9578
+Test Accuracy: 0.5026
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 50/100
+Training Accuracy: 0.9731
+Test Accuracy: 0.5314
+New best model saved with test accuracy: 0.5314
+Dataset 4 | Epoch 51/100
+Training Accuracy: 0.9803
+Test Accuracy: 0.5462
+New best model saved with test accuracy: 0.5462
+Dataset 4 | Epoch 52/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.5497
+New best model saved with test accuracy: 0.5497
+Dataset 4 | Epoch 53/100
+Training Accuracy: 0.9942
+Test Accuracy: 0.5550
+New best model saved with test accuracy: 0.5550
+Dataset 4 | Epoch 54/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.5567
+New best model saved with test accuracy: 0.5567
+Dataset 4 | Epoch 55/100
+Training Accuracy: 0.9942
+Test Accuracy: 0.5620
+New best model saved with test accuracy: 0.5620
+Dataset 4 | Epoch 56/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.5654
+New best model saved with test accuracy: 0.5654
+Dataset 4 | Epoch 57/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5585
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 58/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5681
+New best model saved with test accuracy: 0.5681
+Dataset 4 | Epoch 59/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5611
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 60/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5541
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 61/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.5611
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 62/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.5620
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 63/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.5663
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 64/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.5646
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 65/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.5689
+New best model saved with test accuracy: 0.5689
+Dataset 4 | Epoch 66/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5663
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 67/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5672
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 68/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5593
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 69/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5593
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 70/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5611
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 71/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5585
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 72/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.5620
+No improvement for 7 epoch(s).
+Dataset 4 | Epoch 73/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.5663
+No improvement for 8 epoch(s).
+Dataset 4 | Epoch 74/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5707
+New best model saved with test accuracy: 0.5707
+Dataset 4 | Epoch 75/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5628
+No improvement for 1 epoch(s).
+Dataset 4 | Epoch 76/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5654
+No improvement for 2 epoch(s).
+Dataset 4 | Epoch 77/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.5672
+No improvement for 3 epoch(s).
+Dataset 4 | Epoch 78/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5654
+No improvement for 4 epoch(s).
+Dataset 4 | Epoch 79/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.5654
+No improvement for 5 epoch(s).
+Dataset 4 | Epoch 80/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5646
+No improvement for 6 epoch(s).
+Dataset 4 | Epoch 81/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5681
+No improvement for 7 epoch(s).
+Dataset 4 | Epoch 82/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5681
+No improvement for 8 epoch(s).
+Dataset 4 | Epoch 83/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.5672
+No improvement for 9 epoch(s).
+Dataset 4 | Epoch 84/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.5628
+No improvement for 10 epoch(s).
+Dataset 4 | Epoch 85/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.5681
+No improvement for 11 epoch(s).
+Dataset 4 | Epoch 86/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5672
+No improvement for 12 epoch(s).
+Dataset 4 | Epoch 87/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.5567
+No improvement for 13 epoch(s).
+Dataset 4 | Epoch 88/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.5681
+No improvement for 14 epoch(s).
+Dataset 4 | Epoch 89/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.5654
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 4.
+
+Starting training for dataset part 5...
+Dataset 5 | Epoch 1/100
+Training Accuracy: 0.0022
+Test Accuracy: 0.0071
+New best model saved with test accuracy: 0.0071
+Dataset 5 | Epoch 2/100
+Training Accuracy: 0.0052
+Test Accuracy: 0.0097
+New best model saved with test accuracy: 0.0097
+Dataset 5 | Epoch 3/100
+Training Accuracy: 0.0052
+Test Accuracy: 0.0088
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 4/100
+Training Accuracy: 0.0110
+Test Accuracy: 0.0142
+New best model saved with test accuracy: 0.0142
+Dataset 5 | Epoch 5/100
+Training Accuracy: 0.0199
+Test Accuracy: 0.0221
+New best model saved with test accuracy: 0.0221
+Dataset 5 | Epoch 6/100
+Training Accuracy: 0.0228
+Test Accuracy: 0.0336
+New best model saved with test accuracy: 0.0336
+Dataset 5 | Epoch 7/100
+Training Accuracy: 0.0258
+Test Accuracy: 0.0469
+New best model saved with test accuracy: 0.0469
+Dataset 5 | Epoch 8/100
+Training Accuracy: 0.0559
+Test Accuracy: 0.0814
+New best model saved with test accuracy: 0.0814
+Dataset 5 | Epoch 9/100
+Training Accuracy: 0.0883
+Test Accuracy: 0.1133
+New best model saved with test accuracy: 0.1133
+Dataset 5 | Epoch 10/100
+Training Accuracy: 0.1207
+Test Accuracy: 0.2009
+New best model saved with test accuracy: 0.2009
+Dataset 5 | Epoch 11/100
+Training Accuracy: 0.2193
+Test Accuracy: 0.2460
+New best model saved with test accuracy: 0.2460
+Dataset 5 | Epoch 12/100
+Training Accuracy: 0.2811
+Test Accuracy: 0.2513
+New best model saved with test accuracy: 0.2513
+Dataset 5 | Epoch 13/100
+Training Accuracy: 0.3745
+Test Accuracy: 0.3230
+New best model saved with test accuracy: 0.3230
+Dataset 5 | Epoch 14/100
+Training Accuracy: 0.4459
+Test Accuracy: 0.3673
+New best model saved with test accuracy: 0.3673
+Dataset 5 | Epoch 15/100
+Training Accuracy: 0.5467
+Test Accuracy: 0.4150
+New best model saved with test accuracy: 0.4150
+Dataset 5 | Epoch 16/100
+Training Accuracy: 0.5975
+Test Accuracy: 0.4460
+New best model saved with test accuracy: 0.4460
+Dataset 5 | Epoch 17/100
+Training Accuracy: 0.6497
+Test Accuracy: 0.4602
+New best model saved with test accuracy: 0.4602
+Dataset 5 | Epoch 18/100
+Training Accuracy: 0.7035
+Test Accuracy: 0.5115
+New best model saved with test accuracy: 0.5115
+Dataset 5 | Epoch 19/100
+Training Accuracy: 0.7506
+Test Accuracy: 0.4841
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 20/100
+Training Accuracy: 0.7756
+Test Accuracy: 0.5929
+New best model saved with test accuracy: 0.5929
+Dataset 5 | Epoch 21/100
+Training Accuracy: 0.8168
+Test Accuracy: 0.5841
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 22/100
+Training Accuracy: 0.8425
+Test Accuracy: 0.5708
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 23/100
+Training Accuracy: 0.8418
+Test Accuracy: 0.5142
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 24/100
+Training Accuracy: 0.8705
+Test Accuracy: 0.5947
+New best model saved with test accuracy: 0.5947
+Dataset 5 | Epoch 25/100
+Training Accuracy: 0.8970
+Test Accuracy: 0.6150
+New best model saved with test accuracy: 0.6150
+Dataset 5 | Epoch 26/100
+Training Accuracy: 0.9088
+Test Accuracy: 0.5850
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 27/100
+Training Accuracy: 0.9073
+Test Accuracy: 0.6221
+New best model saved with test accuracy: 0.6221
+Dataset 5 | Epoch 28/100
+Training Accuracy: 0.9095
+Test Accuracy: 0.5920
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 29/100
+Training Accuracy: 0.9264
+Test Accuracy: 0.5973
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 30/100
+Training Accuracy: 0.9316
+Test Accuracy: 0.6142
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 31/100
+Training Accuracy: 0.9485
+Test Accuracy: 0.6097
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 32/100
+Training Accuracy: 0.9279
+Test Accuracy: 0.6195
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 33/100
+Training Accuracy: 0.9478
+Test Accuracy: 0.6265
+New best model saved with test accuracy: 0.6265
+Dataset 5 | Epoch 34/100
+Training Accuracy: 0.9551
+Test Accuracy: 0.6080
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 35/100
+Training Accuracy: 0.9514
+Test Accuracy: 0.6142
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 36/100
+Training Accuracy: 0.9558
+Test Accuracy: 0.6035
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 37/100
+Training Accuracy: 0.9654
+Test Accuracy: 0.6133
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 38/100
+Training Accuracy: 0.9536
+Test Accuracy: 0.5947
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 39/100
+Training Accuracy: 0.9610
+Test Accuracy: 0.5894
+No improvement for 6 epoch(s).
+Dataset 5 | Epoch 40/100
+Training Accuracy: 0.9750
+Test Accuracy: 0.6593
+New best model saved with test accuracy: 0.6593
+Dataset 5 | Epoch 41/100
+Training Accuracy: 0.9882
+Test Accuracy: 0.6717
+New best model saved with test accuracy: 0.6717
+Dataset 5 | Epoch 42/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.6779
+New best model saved with test accuracy: 0.6779
+Dataset 5 | Epoch 43/100
+Training Accuracy: 0.9941
+Test Accuracy: 0.6823
+New best model saved with test accuracy: 0.6823
+Dataset 5 | Epoch 44/100
+Training Accuracy: 0.9934
+Test Accuracy: 0.6912
+New best model saved with test accuracy: 0.6912
+Dataset 5 | Epoch 45/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6885
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 46/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6929
+New best model saved with test accuracy: 0.6929
+Dataset 5 | Epoch 47/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6929
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 48/100
+Training Accuracy: 0.9963
+Test Accuracy: 0.6956
+New best model saved with test accuracy: 0.6956
+Dataset 5 | Epoch 49/100
+Training Accuracy: 0.9963
+Test Accuracy: 0.6965
+New best model saved with test accuracy: 0.6965
+Dataset 5 | Epoch 50/100
+Training Accuracy: 0.9963
+Test Accuracy: 0.6947
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 51/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6938
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 52/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6920
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 53/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6947
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 54/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.6965
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 55/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.7000
+New best model saved with test accuracy: 0.7000
+Dataset 5 | Epoch 56/100
+Training Accuracy: 0.9948
+Test Accuracy: 0.6973
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 57/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.7044
+New best model saved with test accuracy: 0.7044
+Dataset 5 | Epoch 58/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.7018
+No improvement for 1 epoch(s).
+Dataset 5 | Epoch 59/100
+Training Accuracy: 0.9948
+Test Accuracy: 0.6965
+No improvement for 2 epoch(s).
+Dataset 5 | Epoch 60/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6947
+No improvement for 3 epoch(s).
+Dataset 5 | Epoch 61/100
+Training Accuracy: 1.0000
+Test Accuracy: 0.6947
+No improvement for 4 epoch(s).
+Dataset 5 | Epoch 62/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6973
+No improvement for 5 epoch(s).
+Dataset 5 | Epoch 63/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.7009
+No improvement for 6 epoch(s).
+Dataset 5 | Epoch 64/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7009
+No improvement for 7 epoch(s).
+Dataset 5 | Epoch 65/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6982
+No improvement for 8 epoch(s).
+Dataset 5 | Epoch 66/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.7035
+No improvement for 9 epoch(s).
+Dataset 5 | Epoch 67/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7009
+No improvement for 10 epoch(s).
+Dataset 5 | Epoch 68/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7000
+No improvement for 11 epoch(s).
+Dataset 5 | Epoch 69/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.7000
+No improvement for 12 epoch(s).
+Dataset 5 | Epoch 70/100
+Training Accuracy: 0.9993
+Test Accuracy: 0.7035
+No improvement for 13 epoch(s).
+Dataset 5 | Epoch 71/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.7027
+No improvement for 14 epoch(s).
+Dataset 5 | Epoch 72/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.6991
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 5.
+
+Starting training for dataset part 6...
+Dataset 6 | Epoch 1/100
+Training Accuracy: 0.0029
+Test Accuracy: 0.0094
+New best model saved with test accuracy: 0.0094
+Dataset 6 | Epoch 2/100
+Training Accuracy: 0.0072
+Test Accuracy: 0.0077
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 3/100
+Training Accuracy: 0.0051
+Test Accuracy: 0.0189
+New best model saved with test accuracy: 0.0189
+Dataset 6 | Epoch 4/100
+Training Accuracy: 0.0145
+Test Accuracy: 0.0257
+New best model saved with test accuracy: 0.0257
+Dataset 6 | Epoch 5/100
+Training Accuracy: 0.0275
+Test Accuracy: 0.0489
+New best model saved with test accuracy: 0.0489
+Dataset 6 | Epoch 6/100
+Training Accuracy: 0.0579
+Test Accuracy: 0.0849
+New best model saved with test accuracy: 0.0849
+Dataset 6 | Epoch 7/100
+Training Accuracy: 0.0962
+Test Accuracy: 0.1750
+New best model saved with test accuracy: 0.1750
+Dataset 6 | Epoch 8/100
+Training Accuracy: 0.1802
+Test Accuracy: 0.2213
+New best model saved with test accuracy: 0.2213
+Dataset 6 | Epoch 9/100
+Training Accuracy: 0.2605
+Test Accuracy: 0.2564
+New best model saved with test accuracy: 0.2564
+Dataset 6 | Epoch 10/100
+Training Accuracy: 0.3271
+Test Accuracy: 0.3645
+New best model saved with test accuracy: 0.3645
+Dataset 6 | Epoch 11/100
+Training Accuracy: 0.4081
+Test Accuracy: 0.3997
+New best model saved with test accuracy: 0.3997
+Dataset 6 | Epoch 12/100
+Training Accuracy: 0.5137
+Test Accuracy: 0.4743
+New best model saved with test accuracy: 0.4743
+Dataset 6 | Epoch 13/100
+Training Accuracy: 0.5586
+Test Accuracy: 0.4614
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 14/100
+Training Accuracy: 0.6093
+Test Accuracy: 0.5309
+New best model saved with test accuracy: 0.5309
+Dataset 6 | Epoch 15/100
+Training Accuracy: 0.6809
+Test Accuracy: 0.5274
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 16/100
+Training Accuracy: 0.7424
+Test Accuracy: 0.5497
+New best model saved with test accuracy: 0.5497
+Dataset 6 | Epoch 17/100
+Training Accuracy: 0.7764
+Test Accuracy: 0.5772
+New best model saved with test accuracy: 0.5772
+Dataset 6 | Epoch 18/100
+Training Accuracy: 0.8140
+Test Accuracy: 0.5437
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 19/100
+Training Accuracy: 0.8386
+Test Accuracy: 0.5738
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 20/100
+Training Accuracy: 0.8531
+Test Accuracy: 0.5798
+New best model saved with test accuracy: 0.5798
+Dataset 6 | Epoch 21/100
+Training Accuracy: 0.8155
+Test Accuracy: 0.5755
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 22/100
+Training Accuracy: 0.8198
+Test Accuracy: 0.5154
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 23/100
+Training Accuracy: 0.8784
+Test Accuracy: 0.6132
+New best model saved with test accuracy: 0.6132
+Dataset 6 | Epoch 24/100
+Training Accuracy: 0.9052
+Test Accuracy: 0.6012
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 25/100
+Training Accuracy: 0.9059
+Test Accuracy: 0.6021
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 26/100
+Training Accuracy: 0.9168
+Test Accuracy: 0.5866
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 27/100
+Training Accuracy: 0.9211
+Test Accuracy: 0.5943
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 28/100
+Training Accuracy: 0.9298
+Test Accuracy: 0.5918
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 29/100
+Training Accuracy: 0.9399
+Test Accuracy: 0.6046
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 30/100
+Training Accuracy: 0.9718
+Test Accuracy: 0.6484
+New best model saved with test accuracy: 0.6484
+Dataset 6 | Epoch 31/100
+Training Accuracy: 0.9826
+Test Accuracy: 0.6552
+New best model saved with test accuracy: 0.6552
+Dataset 6 | Epoch 32/100
+Training Accuracy: 0.9863
+Test Accuracy: 0.6587
+New best model saved with test accuracy: 0.6587
+Dataset 6 | Epoch 33/100
+Training Accuracy: 0.9834
+Test Accuracy: 0.6621
+New best model saved with test accuracy: 0.6621
+Dataset 6 | Epoch 34/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.6681
+New best model saved with test accuracy: 0.6681
+Dataset 6 | Epoch 35/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6698
+New best model saved with test accuracy: 0.6698
+Dataset 6 | Epoch 36/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.6672
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 37/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6681
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 38/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.6758
+New best model saved with test accuracy: 0.6758
+Dataset 6 | Epoch 39/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6698
+No improvement for 1 epoch(s).
+Dataset 6 | Epoch 40/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6732
+No improvement for 2 epoch(s).
+Dataset 6 | Epoch 41/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6732
+No improvement for 3 epoch(s).
+Dataset 6 | Epoch 42/100
+Training Accuracy: 0.9942
+Test Accuracy: 0.6715
+No improvement for 4 epoch(s).
+Dataset 6 | Epoch 43/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.6690
+No improvement for 5 epoch(s).
+Dataset 6 | Epoch 44/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6630
+No improvement for 6 epoch(s).
+Dataset 6 | Epoch 45/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6690
+No improvement for 7 epoch(s).
+Dataset 6 | Epoch 46/100
+Training Accuracy: 0.9957
+Test Accuracy: 0.6715
+No improvement for 8 epoch(s).
+Dataset 6 | Epoch 47/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6732
+No improvement for 9 epoch(s).
+Dataset 6 | Epoch 48/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6681
+No improvement for 10 epoch(s).
+Dataset 6 | Epoch 49/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6690
+No improvement for 11 epoch(s).
+Dataset 6 | Epoch 50/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.6681
+No improvement for 12 epoch(s).
+Dataset 6 | Epoch 51/100
+Training Accuracy: 0.9986
+Test Accuracy: 0.6707
+No improvement for 13 epoch(s).
+Dataset 6 | Epoch 52/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.6698
+No improvement for 14 epoch(s).
+Dataset 6 | Epoch 53/100
+Training Accuracy: 0.9978
+Test Accuracy: 0.6715
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 6.
+
+Starting training for dataset part 7...
+Dataset 7 | Epoch 1/100
+Training Accuracy: 0.0022
+Test Accuracy: 0.0104
+New best model saved with test accuracy: 0.0104
+Dataset 7 | Epoch 2/100
+Training Accuracy: 0.0073
+Test Accuracy: 0.0069
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 3/100
+Training Accuracy: 0.0102
+Test Accuracy: 0.0104
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 4/100
+Training Accuracy: 0.0095
+Test Accuracy: 0.0095
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 5/100
+Training Accuracy: 0.0102
+Test Accuracy: 0.0104
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 6/100
+Training Accuracy: 0.0109
+Test Accuracy: 0.0139
+New best model saved with test accuracy: 0.0139
+Dataset 7 | Epoch 7/100
+Training Accuracy: 0.0102
+Test Accuracy: 0.0156
+New best model saved with test accuracy: 0.0156
+Dataset 7 | Epoch 8/100
+Training Accuracy: 0.0160
+Test Accuracy: 0.0243
+New best model saved with test accuracy: 0.0243
+Dataset 7 | Epoch 9/100
+Training Accuracy: 0.0153
+Test Accuracy: 0.0260
+New best model saved with test accuracy: 0.0260
+Dataset 7 | Epoch 10/100
+Training Accuracy: 0.0175
+Test Accuracy: 0.0260
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 11/100
+Training Accuracy: 0.0277
+Test Accuracy: 0.0226
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 12/100
+Training Accuracy: 0.0328
+Test Accuracy: 0.0486
+New best model saved with test accuracy: 0.0486
+Dataset 7 | Epoch 13/100
+Training Accuracy: 0.0488
+Test Accuracy: 0.0451
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 14/100
+Training Accuracy: 0.0561
+Test Accuracy: 0.0573
+New best model saved with test accuracy: 0.0573
+Dataset 7 | Epoch 15/100
+Training Accuracy: 0.0641
+Test Accuracy: 0.0686
+New best model saved with test accuracy: 0.0686
+Dataset 7 | Epoch 16/100
+Training Accuracy: 0.0757
+Test Accuracy: 0.0859
+New best model saved with test accuracy: 0.0859
+Dataset 7 | Epoch 17/100
+Training Accuracy: 0.0830
+Test Accuracy: 0.0877
+New best model saved with test accuracy: 0.0877
+Dataset 7 | Epoch 18/100
+Training Accuracy: 0.1129
+Test Accuracy: 0.1137
+New best model saved with test accuracy: 0.1137
+Dataset 7 | Epoch 19/100
+Training Accuracy: 0.1238
+Test Accuracy: 0.1372
+New best model saved with test accuracy: 0.1372
+Dataset 7 | Epoch 20/100
+Training Accuracy: 0.1413
+Test Accuracy: 0.1233
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 21/100
+Training Accuracy: 0.1937
+Test Accuracy: 0.1701
+New best model saved with test accuracy: 0.1701
+Dataset 7 | Epoch 22/100
+Training Accuracy: 0.2323
+Test Accuracy: 0.1528
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 23/100
+Training Accuracy: 0.2629
+Test Accuracy: 0.2309
+New best model saved with test accuracy: 0.2309
+Dataset 7 | Epoch 24/100
+Training Accuracy: 0.2935
+Test Accuracy: 0.1745
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 25/100
+Training Accuracy: 0.3241
+Test Accuracy: 0.2839
+New best model saved with test accuracy: 0.2839
+Dataset 7 | Epoch 26/100
+Training Accuracy: 0.3576
+Test Accuracy: 0.2760
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 27/100
+Training Accuracy: 0.4020
+Test Accuracy: 0.2891
+New best model saved with test accuracy: 0.2891
+Dataset 7 | Epoch 28/100
+Training Accuracy: 0.4501
+Test Accuracy: 0.3672
+New best model saved with test accuracy: 0.3672
+Dataset 7 | Epoch 29/100
+Training Accuracy: 0.5135
+Test Accuracy: 0.3333
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 30/100
+Training Accuracy: 0.5426
+Test Accuracy: 0.3203
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 31/100
+Training Accuracy: 0.5390
+Test Accuracy: 0.3915
+New best model saved with test accuracy: 0.3915
+Dataset 7 | Epoch 32/100
+Training Accuracy: 0.6045
+Test Accuracy: 0.4167
+New best model saved with test accuracy: 0.4167
+Dataset 7 | Epoch 33/100
+Training Accuracy: 0.6220
+Test Accuracy: 0.4323
+New best model saved with test accuracy: 0.4323
+Dataset 7 | Epoch 34/100
+Training Accuracy: 0.6723
+Test Accuracy: 0.4462
+New best model saved with test accuracy: 0.4462
+Dataset 7 | Epoch 35/100
+Training Accuracy: 0.6941
+Test Accuracy: 0.3785
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 36/100
+Training Accuracy: 0.6672
+Test Accuracy: 0.3976
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 37/100
+Training Accuracy: 0.7291
+Test Accuracy: 0.4523
+New best model saved with test accuracy: 0.4523
+Dataset 7 | Epoch 38/100
+Training Accuracy: 0.7356
+Test Accuracy: 0.4766
+New best model saved with test accuracy: 0.4766
+Dataset 7 | Epoch 39/100
+Training Accuracy: 0.7393
+Test Accuracy: 0.4158
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 40/100
+Training Accuracy: 0.7655
+Test Accuracy: 0.4852
+New best model saved with test accuracy: 0.4852
+Dataset 7 | Epoch 41/100
+Training Accuracy: 0.7917
+Test Accuracy: 0.4792
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 42/100
+Training Accuracy: 0.7946
+Test Accuracy: 0.4826
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 43/100
+Training Accuracy: 0.8208
+Test Accuracy: 0.5035
+New best model saved with test accuracy: 0.5035
+Dataset 7 | Epoch 44/100
+Training Accuracy: 0.8114
+Test Accuracy: 0.4627
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 45/100
+Training Accuracy: 0.8398
+Test Accuracy: 0.4818
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 46/100
+Training Accuracy: 0.8471
+Test Accuracy: 0.5260
+New best model saved with test accuracy: 0.5260
+Dataset 7 | Epoch 47/100
+Training Accuracy: 0.8667
+Test Accuracy: 0.4575
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 48/100
+Training Accuracy: 0.8521
+Test Accuracy: 0.4809
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 49/100
+Training Accuracy: 0.8536
+Test Accuracy: 0.5026
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 50/100
+Training Accuracy: 0.8718
+Test Accuracy: 0.4939
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 51/100
+Training Accuracy: 0.8682
+Test Accuracy: 0.4783
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 52/100
+Training Accuracy: 0.8835
+Test Accuracy: 0.5017
+No improvement for 6 epoch(s).
+Dataset 7 | Epoch 53/100
+Training Accuracy: 0.9206
+Test Accuracy: 0.5530
+New best model saved with test accuracy: 0.5530
+Dataset 7 | Epoch 54/100
+Training Accuracy: 0.9359
+Test Accuracy: 0.5668
+New best model saved with test accuracy: 0.5668
+Dataset 7 | Epoch 55/100
+Training Accuracy: 0.9432
+Test Accuracy: 0.5660
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 56/100
+Training Accuracy: 0.9454
+Test Accuracy: 0.5720
+New best model saved with test accuracy: 0.5720
+Dataset 7 | Epoch 57/100
+Training Accuracy: 0.9592
+Test Accuracy: 0.5755
+New best model saved with test accuracy: 0.5755
+Dataset 7 | Epoch 58/100
+Training Accuracy: 0.9607
+Test Accuracy: 0.5720
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 59/100
+Training Accuracy: 0.9592
+Test Accuracy: 0.5773
+New best model saved with test accuracy: 0.5773
+Dataset 7 | Epoch 60/100
+Training Accuracy: 0.9716
+Test Accuracy: 0.5790
+New best model saved with test accuracy: 0.5790
+Dataset 7 | Epoch 61/100
+Training Accuracy: 0.9636
+Test Accuracy: 0.5764
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 62/100
+Training Accuracy: 0.9723
+Test Accuracy: 0.5911
+New best model saved with test accuracy: 0.5911
+Dataset 7 | Epoch 63/100
+Training Accuracy: 0.9680
+Test Accuracy: 0.5842
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 64/100
+Training Accuracy: 0.9614
+Test Accuracy: 0.5833
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 65/100
+Training Accuracy: 0.9701
+Test Accuracy: 0.5911
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 66/100
+Training Accuracy: 0.9738
+Test Accuracy: 0.5981
+New best model saved with test accuracy: 0.5981
+Dataset 7 | Epoch 67/100
+Training Accuracy: 0.9716
+Test Accuracy: 0.5903
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 68/100
+Training Accuracy: 0.9789
+Test Accuracy: 0.5920
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 69/100
+Training Accuracy: 0.9782
+Test Accuracy: 0.5938
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 70/100
+Training Accuracy: 0.9723
+Test Accuracy: 0.5972
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 71/100
+Training Accuracy: 0.9825
+Test Accuracy: 0.6024
+New best model saved with test accuracy: 0.6024
+Dataset 7 | Epoch 72/100
+Training Accuracy: 0.9752
+Test Accuracy: 0.5955
+No improvement for 1 epoch(s).
+Dataset 7 | Epoch 73/100
+Training Accuracy: 0.9672
+Test Accuracy: 0.5972
+No improvement for 2 epoch(s).
+Dataset 7 | Epoch 74/100
+Training Accuracy: 0.9672
+Test Accuracy: 0.5920
+No improvement for 3 epoch(s).
+Dataset 7 | Epoch 75/100
+Training Accuracy: 0.9811
+Test Accuracy: 0.5955
+No improvement for 4 epoch(s).
+Dataset 7 | Epoch 76/100
+Training Accuracy: 0.9789
+Test Accuracy: 0.5911
+No improvement for 5 epoch(s).
+Dataset 7 | Epoch 77/100
+Training Accuracy: 0.9818
+Test Accuracy: 0.5851
+No improvement for 6 epoch(s).
+Dataset 7 | Epoch 78/100
+Training Accuracy: 0.9738
+Test Accuracy: 0.5885
+No improvement for 7 epoch(s).
+Dataset 7 | Epoch 79/100
+Training Accuracy: 0.9811
+Test Accuracy: 0.5877
+No improvement for 8 epoch(s).
+Dataset 7 | Epoch 80/100
+Training Accuracy: 0.9811
+Test Accuracy: 0.5894
+No improvement for 9 epoch(s).
+Dataset 7 | Epoch 81/100
+Training Accuracy: 0.9854
+Test Accuracy: 0.5911
+No improvement for 10 epoch(s).
+Dataset 7 | Epoch 82/100
+Training Accuracy: 0.9832
+Test Accuracy: 0.5868
+No improvement for 11 epoch(s).
+Dataset 7 | Epoch 83/100
+Training Accuracy: 0.9731
+Test Accuracy: 0.5842
+No improvement for 12 epoch(s).
+Dataset 7 | Epoch 84/100
+Training Accuracy: 0.9854
+Test Accuracy: 0.5938
+No improvement for 13 epoch(s).
+Dataset 7 | Epoch 85/100
+Training Accuracy: 0.9840
+Test Accuracy: 0.5894
+No improvement for 14 epoch(s).
+Dataset 7 | Epoch 86/100
+Training Accuracy: 0.9796
+Test Accuracy: 0.5833
+No improvement for 15 epoch(s).
+Early stopping triggered.
+Training complete for Dataset part 7.
+
+Starting training for dataset part 8...
+Dataset 8 | Epoch 1/100
+Training Accuracy: 0.0044
+Test Accuracy: 0.0095
+New best model saved with test accuracy: 0.0095
+Dataset 8 | Epoch 2/100
+Training Accuracy: 0.0087
+Test Accuracy: 0.0086
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 3/100
+Training Accuracy: 0.0036
+Test Accuracy: 0.0095
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 4/100
+Training Accuracy: 0.0087
+Test Accuracy: 0.0095
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 5/100
+Training Accuracy: 0.0073
+Test Accuracy: 0.0095
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 6/100
+Training Accuracy: 0.0058
+Test Accuracy: 0.0121
+New best model saved with test accuracy: 0.0121
+Dataset 8 | Epoch 7/100
+Training Accuracy: 0.0073
+Test Accuracy: 0.0078
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 8/100
+Training Accuracy: 0.0087
+Test Accuracy: 0.0121
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 9/100
+Training Accuracy: 0.0102
+Test Accuracy: 0.0155
+New best model saved with test accuracy: 0.0155
+Dataset 8 | Epoch 10/100
+Training Accuracy: 0.0116
+Test Accuracy: 0.0147
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 11/100
+Training Accuracy: 0.0102
+Test Accuracy: 0.0138
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 12/100
+Training Accuracy: 0.0204
+Test Accuracy: 0.0173
+New best model saved with test accuracy: 0.0173
+Dataset 8 | Epoch 13/100
+Training Accuracy: 0.0262
+Test Accuracy: 0.0129
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 14/100
+Training Accuracy: 0.0306
+Test Accuracy: 0.0345
+New best model saved with test accuracy: 0.0345
+Dataset 8 | Epoch 15/100
+Training Accuracy: 0.0306
+Test Accuracy: 0.0414
+New best model saved with test accuracy: 0.0414
+Dataset 8 | Epoch 16/100
+Training Accuracy: 0.0502
+Test Accuracy: 0.0233
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 17/100
+Training Accuracy: 0.0582
+Test Accuracy: 0.0457
+New best model saved with test accuracy: 0.0457
+Dataset 8 | Epoch 18/100
+Training Accuracy: 0.0735
+Test Accuracy: 0.0682
+New best model saved with test accuracy: 0.0682
+Dataset 8 | Epoch 19/100
+Training Accuracy: 0.0932
+Test Accuracy: 0.0682
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 20/100
+Training Accuracy: 0.1084
+Test Accuracy: 0.0837
+New best model saved with test accuracy: 0.0837
+Dataset 8 | Epoch 21/100
+Training Accuracy: 0.1252
+Test Accuracy: 0.0880
+New best model saved with test accuracy: 0.0880
+Dataset 8 | Epoch 22/100
+Training Accuracy: 0.1485
+Test Accuracy: 0.0975
+New best model saved with test accuracy: 0.0975
+Dataset 8 | Epoch 23/100
+Training Accuracy: 0.2103
+Test Accuracy: 0.0932
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 24/100
+Training Accuracy: 0.2387
+Test Accuracy: 0.1173
+New best model saved with test accuracy: 0.1173
+Dataset 8 | Epoch 25/100
+Training Accuracy: 0.2766
+Test Accuracy: 0.1346
+New best model saved with test accuracy: 0.1346
+Dataset 8 | Epoch 26/100
+Training Accuracy: 0.3071
+Test Accuracy: 0.0880
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 27/100
+Training Accuracy: 0.3610
+Test Accuracy: 0.1786
+New best model saved with test accuracy: 0.1786
+Dataset 8 | Epoch 28/100
+Training Accuracy: 0.3770
+Test Accuracy: 0.1743
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 29/100
+Training Accuracy: 0.4520
+Test Accuracy: 0.2097
+New best model saved with test accuracy: 0.2097
+Dataset 8 | Epoch 30/100
+Training Accuracy: 0.4913
+Test Accuracy: 0.2062
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 31/100
+Training Accuracy: 0.5386
+Test Accuracy: 0.1950
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 32/100
+Training Accuracy: 0.5568
+Test Accuracy: 0.2062
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 33/100
+Training Accuracy: 0.5866
+Test Accuracy: 0.2123
+New best model saved with test accuracy: 0.2123
+Dataset 8 | Epoch 34/100
+Training Accuracy: 0.6266
+Test Accuracy: 0.2433
+New best model saved with test accuracy: 0.2433
+Dataset 8 | Epoch 35/100
+Training Accuracy: 0.6638
+Test Accuracy: 0.2338
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 36/100
+Training Accuracy: 0.7191
+Test Accuracy: 0.2726
+New best model saved with test accuracy: 0.2726
+Dataset 8 | Epoch 37/100
+Training Accuracy: 0.7533
+Test Accuracy: 0.2459
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 38/100
+Training Accuracy: 0.7744
+Test Accuracy: 0.2752
+New best model saved with test accuracy: 0.2752
+Dataset 8 | Epoch 39/100
+Training Accuracy: 0.7773
+Test Accuracy: 0.2865
+New best model saved with test accuracy: 0.2865
+Dataset 8 | Epoch 40/100
+Training Accuracy: 0.8130
+Test Accuracy: 0.2908
+New best model saved with test accuracy: 0.2908
+Dataset 8 | Epoch 41/100
+Training Accuracy: 0.8130
+Test Accuracy: 0.2519
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 42/100
+Training Accuracy: 0.8574
+Test Accuracy: 0.2830
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 43/100
+Training Accuracy: 0.8530
+Test Accuracy: 0.3132
+New best model saved with test accuracy: 0.3132
+Dataset 8 | Epoch 44/100
+Training Accuracy: 0.8865
+Test Accuracy: 0.2796
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 45/100
+Training Accuracy: 0.8806
+Test Accuracy: 0.3253
+New best model saved with test accuracy: 0.3253
+Dataset 8 | Epoch 46/100
+Training Accuracy: 0.8945
+Test Accuracy: 0.2640
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 47/100
+Training Accuracy: 0.9272
+Test Accuracy: 0.3072
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 48/100
+Training Accuracy: 0.9221
+Test Accuracy: 0.3175
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 49/100
+Training Accuracy: 0.9148
+Test Accuracy: 0.2942
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 50/100
+Training Accuracy: 0.9199
+Test Accuracy: 0.3063
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 51/100
+Training Accuracy: 0.9156
+Test Accuracy: 0.3192
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 52/100
+Training Accuracy: 0.9505
+Test Accuracy: 0.3374
+New best model saved with test accuracy: 0.3374
+Dataset 8 | Epoch 53/100
+Training Accuracy: 0.9687
+Test Accuracy: 0.3494
+New best model saved with test accuracy: 0.3494
+Dataset 8 | Epoch 54/100
+Training Accuracy: 0.9782
+Test Accuracy: 0.3555
+New best model saved with test accuracy: 0.3555
+Dataset 8 | Epoch 55/100
+Training Accuracy: 0.9694
+Test Accuracy: 0.3581
+New best model saved with test accuracy: 0.3581
+Dataset 8 | Epoch 56/100
+Training Accuracy: 0.9672
+Test Accuracy: 0.3632
+New best model saved with test accuracy: 0.3632
+Dataset 8 | Epoch 57/100
+Training Accuracy: 0.9840
+Test Accuracy: 0.3598
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 58/100
+Training Accuracy: 0.9934
+Test Accuracy: 0.3676
+New best model saved with test accuracy: 0.3676
+Dataset 8 | Epoch 59/100
+Training Accuracy: 0.9876
+Test Accuracy: 0.3546
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 60/100
+Training Accuracy: 0.9862
+Test Accuracy: 0.3607
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 61/100
+Training Accuracy: 0.9862
+Test Accuracy: 0.3632
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 62/100
+Training Accuracy: 0.9811
+Test Accuracy: 0.3710
+New best model saved with test accuracy: 0.3710
+Dataset 8 | Epoch 63/100
+Training Accuracy: 0.9884
+Test Accuracy: 0.3615
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 64/100
+Training Accuracy: 0.9884
+Test Accuracy: 0.3719
+New best model saved with test accuracy: 0.3719
+Dataset 8 | Epoch 65/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.3658
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 66/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.3650
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 67/100
+Training Accuracy: 0.9934
+Test Accuracy: 0.3693
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 68/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.3658
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 69/100
+Training Accuracy: 0.9884
+Test Accuracy: 0.3615
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 70/100
+Training Accuracy: 0.9862
+Test Accuracy: 0.3701
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 71/100
+Training Accuracy: 0.9898
+Test Accuracy: 0.3667
+No improvement for 7 epoch(s).
+Dataset 8 | Epoch 72/100
+Training Accuracy: 0.9876
+Test Accuracy: 0.3632
+No improvement for 8 epoch(s).
+Dataset 8 | Epoch 73/100
+Training Accuracy: 0.9862
+Test Accuracy: 0.3676
+No improvement for 9 epoch(s).
+Dataset 8 | Epoch 74/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.3701
+No improvement for 10 epoch(s).
+Dataset 8 | Epoch 75/100
+Training Accuracy: 0.9898
+Test Accuracy: 0.3693
+No improvement for 11 epoch(s).
+Dataset 8 | Epoch 76/100
+Training Accuracy: 0.9942
+Test Accuracy: 0.3632
+No improvement for 12 epoch(s).
+Dataset 8 | Epoch 77/100
+Training Accuracy: 0.9949
+Test Accuracy: 0.3641
+No improvement for 13 epoch(s).
+Dataset 8 | Epoch 78/100
+Training Accuracy: 0.9927
+Test Accuracy: 0.3753
+New best model saved with test accuracy: 0.3753
+Dataset 8 | Epoch 79/100
+Training Accuracy: 0.9840
+Test Accuracy: 0.3693
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 80/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.3684
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 81/100
+Training Accuracy: 0.9985
+Test Accuracy: 0.3719
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 82/100
+Training Accuracy: 0.9913
+Test Accuracy: 0.3745
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 83/100
+Training Accuracy: 0.9934
+Test Accuracy: 0.3676
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 84/100
+Training Accuracy: 0.9891
+Test Accuracy: 0.3650
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 85/100
+Training Accuracy: 0.9898
+Test Accuracy: 0.3736
+No improvement for 7 epoch(s).
+Dataset 8 | Epoch 86/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.3658
+No improvement for 8 epoch(s).
+Dataset 8 | Epoch 87/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.3667
+No improvement for 9 epoch(s).
+Dataset 8 | Epoch 88/100
+Training Accuracy: 0.9934
+Test Accuracy: 0.3736
+No improvement for 10 epoch(s).
+Dataset 8 | Epoch 89/100
+Training Accuracy: 0.9920
+Test Accuracy: 0.3762
+New best model saved with test accuracy: 0.3762
+Dataset 8 | Epoch 90/100
+Training Accuracy: 0.9964
+Test Accuracy: 0.3641
+No improvement for 1 epoch(s).
+Dataset 8 | Epoch 91/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.3736
+No improvement for 2 epoch(s).
+Dataset 8 | Epoch 92/100
+Training Accuracy: 0.9862
+Test Accuracy: 0.3710
+No improvement for 3 epoch(s).
+Dataset 8 | Epoch 93/100
+Training Accuracy: 0.9956
+Test Accuracy: 0.3667
+No improvement for 4 epoch(s).
+Dataset 8 | Epoch 94/100
+Training Accuracy: 0.9927
+Test Accuracy: 0.3650
+No improvement for 5 epoch(s).
+Dataset 8 | Epoch 95/100
+Training Accuracy: 0.9971
+Test Accuracy: 0.3710
+No improvement for 6 epoch(s).
+Dataset 8 | Epoch 96/100
+Training Accuracy: 0.9898
+Test Accuracy: 0.3710
+No improvement for 7 epoch(s).
+Dataset 8 | Epoch 97/100
+Training Accuracy: 0.9891
+Test Accuracy: 0.3684
+No improvement for 8 epoch(s).
+Dataset 8 | Epoch 98/100
+Training Accuracy: 0.9854
+Test Accuracy: 0.3745
+No improvement for 9 epoch(s).
+Dataset 8 | Epoch 99/100
+Training Accuracy: 0.9869
+Test Accuracy: 0.3762
+No improvement for 10 epoch(s).
+Dataset 8 | Epoch 100/100
+Training Accuracy: 0.9891
+Test Accuracy: 0.3607
+No improvement for 11 epoch(s).
+Training complete for Dataset part 8.
+
