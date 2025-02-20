@@ -63,8 +63,8 @@ This image illustrates how the Siamese Network verifies if two car images belong
 | Model               | Easy (%) | Medium (%) | Hard (%) |
 |--------------------|---------|------------|---------|
 | Siamese Network (Ours) | 88.64%  | 87.72%     | 82.61%  |
-| CNN + Joint Bayesian  | 83.30%  | 82.40%     | 76.10%  |
-| CNN + SVM            | 70.00%  | 69.00%     | 65.90%  |
+| CNN + Joint Bayesian(Ref)  | 83.30%  | 82.40%     | 76.10%  |
+| CNN + SVM(Ref)            | 70.00%  | 69.00%     | 65.90%  |
 
 ---
 
